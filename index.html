@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AB Movie Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Static Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <div class="header-title">
+            <h1>AB MOVIES HUB</h1>
+        </div>
+
+        <div class="search-bar">
+            <div class="container">
+                <input type="text" name="text" id="search-field" class="input" required="" placeholder="  Type to search...">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                        <title>Search</title>
+                        <path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path>
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Movie Section -->
+        <!-- Main Movie Section -->
+    <div id="movie-list">
+        <!--
+        <!-- Movie Card 1 --example 
+        <div class="movie-card">
+            <a href="https://drive.google.com/folder1" target="_blank">
+                <img src="images/movie1.jpg" alt="Movie 1">
+                <div class="movie-title">Movie 1</div>
+            </a>
+        </div>
+        -->
+    
+    </div>
+
+    <!-- Video Player Overlay 
+    <div id="video-player-overlay" class="video-player-overlay">
+        <span class="close-video" id="close-video">×</span>
+        <video id="video-player" controls autoplay>
+            <source id="video-source" src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    -->
+
+    <!-- Floating Bubble -->
+    <div class="floating-bubble" id="feedback-bubble">Feedback</div>
+    <!-- Feedback Form Overlay -->
+    <div class="feedback-overlay" id="feedback-overlay">
+        <div class="feedback-form">
+            <span class="minimize-icon" id="minimize-icon">x</span>
+            <div class="title">
+              <h1>contact us</h1>
+            </div>
+            <div class="contact-form">
+              <div class="input-fields">
+                <input type="text" class="input" placeholder="Name">
+                <input type="text" class="input" placeholder="Email Address">
+                <input type="text" class="input" placeholder="Movie/Series Suggestion">
+              </div>
+            </div>
+            <div class="btn" id="send-btn">send</div>
+            <p id="feedback-message" style="display:none; color: green; margin-top: 10px;">Feedback sent successfully</p>
+          </div>
+    </div>
+
+    <!-- Pagination Section -->
+    <div class="pagination">
+        <button class="page-btn" role="button" id="prev-page">Prev</button>
+        <span id="page-num">1</span>
+        <button class="page-btn" role="button" id="next-page">Next</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Disclaimer: All content belongs to their respective owners.</p>
+        <p>&copy; 2024 AB Movie Library. Contact: <a href="mailto:avilash.it04@gmail.com" style ="color: yellow;">avilashbhowmick@gmail.com</a></p>
+        <p>Developed by: <a href="https://www.linkedin.com/in/avilash-bhowmick-497b24223" target="_blank" class="developer-link">Avilash Bhowmick</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

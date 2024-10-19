@@ -1,0 +1,46 @@
+suppose i have an idea of creating a movie library webpage , using html css js .
+Now it will be a simple project featuring only one page.
+
+the page will contain:
+1. at the top header part will contain :
+	1. header : right side will feature a search icon, 
+[it will be totally dynamic like , the search icon will be responsive, - on slicking the icon, it will expand into a search field, on typing inside of it , the name of the movie if present as a card on the page, the card will be highlighted , the bakcground border of the card will be highlighted with a border color when search matches, else will show 'no result found' ]
+	1. header : left side extreme will feature a circular logo,
+this header will be static to the page, that means when scrolling down this header will not move up or down with the page.
+
+2. the entire page will be like a matrix data library like a movie library page, 
+it will be responsive like if opened on a smaller display, it can manage itself accordingly and shrik and adjust the movie cards.
+
+like on the desktop mode , if it features : 5 horizontal cards side by side , the cards will be of size suppose '3:4' and will also have a name card attached below it, making around all together the size around '9:16' approximately.
+graphically will be like this :
+----------     ----------     ----------     ----------     ----------
+|        |     |        |     |        |     |        |     |        |
+|        |     |        |     |        |     |        |     |        |
+|        |     |        |     |        |     |        |     |        |
+|   1    |     |   2    |     |   3    |     |    4   |     |   5    |
+|        |     |        |     |        |     |        |     |        |
+|        |     |        |     |        |     |        |     |        |
+----------     ----------     ----------     ----------     ----------
+|        |     |        |     |        |     |        |     |        |
+----------     ----------     ----------     ----------     ----------
+
+----------     ----------     ----------     ----------     ----------
+|        |     |        |     |        |     |        |     |        |
+|        |     |        |     |        |     |        |     |        |
+|        |     |        |     |        |     |        |     |        |
+|   6    |     |        |     |        |     |        |     |        |
+|        |     |        |     |        |     |        |     |        |
+|        |     |        |     |        |     |        |     |        |
+----------     ----------     ----------     ----------     ----------
+|        |     |        |     |        |     |        |     |        |
+----------     ----------     ----------     ----------     ----------
+continues..
+the page will have page numbers below of the card as page : 1 , 2 , 3 , ... N.
+on clicking the page numbers it will refresh the contents of the cards in the page, and will show the next set of cards.
+
+3. the page will be dynamic hence, if i wanted to update it i can, like later want to add a card , it will be easy to do, 
+4. the cards will feature images of the movies like a front card 1 will feature a image , and below it will feature the name of the movie, the images will be stored in a folder which will contain all the images.
+5. now , i have a google drive and inside it it has separate folders for each movie , hence on clicking the cards it will redirect to the respective movie folder, this will be the logic behind .
+6. Lastly in the footer part, a discalimer and copyright message will be present, then the contact details, and the developer details .
+---
+give the html css js or all other files along with names, commands, codes, and file organisation schema as well , folder organisation as well what to name which file and what code to write in which file for this compeltion of this project .

@@ -35,23 +35,13 @@ Welcome to the **AB Movie Library** project! This repository contains the source
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
+    git clone https://github.com/AvilashBhowmick12/AB-Movies-Hub.git
+    cd AB-Movies-Hub
     ```
 
 2. **Open the Project in VS Code**
     ```bash
     code .
-    ```
-
-3. **Push Your Project to GitHub**
-    ```bash
-    git init
-    git remote add origin https://github.com/your-username/your-repository.git
-    git add .
-    git commit -m "Initial commit"
-    git branch -M main
-    git push -u origin main
     ```
 
 ## Usage

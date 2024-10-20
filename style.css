@@ -402,8 +402,6 @@ footer {
   /*feedback overlay*/
   .feedback-overlay {
     position: fixed;
-    height: 70%;
-    width: 70%;
     justify-content: center;
     align-items: center;
   }

@@ -56,5 +56,5 @@ Welcome to the **AB Movie Library** project! This repository contains the source
 
 ## APK and Public Website
 
-1. **This is the public website version : [AB Movies Hub](https://avilashbhowmick12.github.io/AB-Movies-Hub/)
-2. **This is the apk version : [AB Movies](https://github.com/AvilashBhowmick12/AB-Movies-Hub/blob/main/Android%20-%20Release%20APK/AB%20Movies.apk)
+1. **Public Website Version:** [AB Movies Hub](https://avilashbhowmick12.github.io/AB-Movies-Hub/)
+2. **APK Version:** [AB Movies](https://github.com/AvilashBhowmick12/AB-Movies-Hub/raw/main/Android%20-%20Release%20APK/AB%20Movies.apk)

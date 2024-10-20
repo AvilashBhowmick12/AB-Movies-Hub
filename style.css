@@ -164,14 +164,12 @@ justify-content: center;
 align-items: center;
 z-index: 1000;
 }
-
 .video-player {
 background-color: white;
 padding: 20px;
 border-radius: 10px;
 position: relative;
 }
-
 .close-btn {
 position: absolute;
 top: 10px;
@@ -224,28 +222,23 @@ color: #333;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
-
 .feedback-form .title h1{
   color: #c5ecfd;
   text-align: center;
   margin-bottom: 25px;
 }
-
 .contact-form{
   display: flex;
 }
-
 .input-fields{
   display: flex;
   flex-direction: column;
   margin-right: 4%;
 }
-
 .input-fields,
 .msg{
   width: 48%;
 }
-
 .input-fields .input,
 .msg textarea{
   margin: 10px 0;
@@ -256,11 +249,9 @@ color: #333;
   color: #c5ecfd;
   width: 100%;
 }
-
 .msg textarea{
   height: 212px;
 }
-
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #c5ecfd;
@@ -273,7 +264,6 @@ color: #333;
   /* IE 10+ */
   color: #c5ecfd;
 }
-
 .btn {
     background: #39b7dd;
     text-align: center;
@@ -283,7 +273,6 @@ color: #333;
     cursor: pointer;
     text-transform: uppercase;
 }
-
 /* Minimize Icon */
 .minimize-icon {
     position: absolute;
@@ -335,7 +324,6 @@ color: #333;
   will-change: box-shadow, transform;
   font-size: 18px;
 }
-
 .page-btn:focus {
   box-shadow:
     #d6d6e7 0 0 0 1.5px inset,
@@ -343,7 +331,6 @@ color: #333;
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
     #d6d6e7 0 -3px 0 inset;
 }
-
 .page-btn:hover {
   box-shadow:
     rgba(45, 35, 66, 0.3) 0 4px 8px,
@@ -351,7 +338,6 @@ color: #333;
     #d6d6e7 0 -3px 0 inset;
   transform: translateY(-2px);
 }
-
 .page-btn:active {
   box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
@@ -384,13 +370,7 @@ footer {
 }
 
 /*-------------------for android mode---------------------*/
-/* Responsive Design */
-
-@media (max-width: 470px) {
-
-  
-  .logo img {
-      width: 40px;
+@@ -392,25 +392,47 @@ footer {
       height: 40px;
   }
 
@@ -398,7 +378,6 @@ footer {
     flex-grow: 2;
     text-align: center;
   }
-
   .header-title h1 {
       font-size: 16px;
   }
@@ -420,7 +399,6 @@ footer {
   body {
     overflow-x: hidden;
   }
-
   /*feedback overlay*/
   .feedback-overlay {
     position: fixed;
@@ -429,12 +407,10 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
   /* feedback form adjustments*/
   .feedback-form {
     padding: 10px;
     width: 80%;
     position: relative;
   }
-
 }

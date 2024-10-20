@@ -18,7 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
-    { title: " Mismatched Netflix ", image: "images/movie154.jpg", link: " https://drive.google.com/drive/folders/1pEfgk32JcWiSET814M6khaY09rVuA1IR "},
+    { title: " Mismatched Netflix ", image: "images/movie154.jpg", link: "    https://drive.google.com/drive/folders/1pEfgk32JcWiSET814M6khaY09rVuA1IR    "},
     { title: "	The Frog (Season 1)	", image: "images/movie153.jpg", link: "	https://drive.google.com/drive/folders/1Y6nDcWX1gGx2JbBoSjwXETbSDV2LYcai	" },
     { title: "	The Substance 2024	", image: "images/movie152.jpg", link: "	https://drive.google.com/drive/folders/14SUawCkPBGyOd-lJDEU-yC7TYfhT48qH	" },
     { title: "	Vicky Vidya ka Woh wala Video 2024 Hindi	", image: "images/movie151.jpg", link: "	https://drive.google.com/drive/folders/18ffS-M1Dr1eqpU0_-qdYwKM85quX7cXz	" },

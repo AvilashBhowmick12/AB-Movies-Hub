@@ -387,7 +387,7 @@ footer {
   }
   /*movie cards adjustemnts*/
   .movie-card {
-      width: calc(100% - 20px);
+      width: calc(100% - 10px);
       height : 75%;
   }
   /*-- adjust movie title --*/

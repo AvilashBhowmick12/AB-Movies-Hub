@@ -261,6 +261,8 @@ document.addEventListener('DOMContentLoaded', function() {
         feedbackOverlay.style.display = 'none';
     });
 
+    /* when form is actually not submitting */
+    /*
     sendBtn.addEventListener('click', function(event) {
         event.preventDefault(); // Prevent actual form submission
         feedbackMessage.style.display = 'block'; // Show success message
@@ -271,6 +273,62 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('email').value = '';
         document.getElementById('suggestion').value = '';
     });
+    */
+    // Send feedback when the send button is clicked
+    sendBtn.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent form submission behavior
+
+        // Get input values from the form fields
+        const name = document.querySelector('input[placeholder="Name"]').value;
+        const email = document.querySelector('input[placeholder="Email Address"]').value;
+        const suggestion = document.querySelector('input[placeholder="Movie/Series Suggestion"]').value;
+
+        // Check if any input is empty
+        if (!name || !email || !suggestion) {
+            feedbackMessage.style.display = 'block';
+            feedbackMessage.textContent = 'Please fill out all fields.';
+            feedbackMessage.style.color = 'red';
+            return;
+        }
+
+        // Sending data to Google Apps Script Web App
+        fetch('https://script.google.com/macros/s/AKfycbxpHy7dowLHk2VCVdqo0Cq5v5Zm6bO_IyIIICJchOs/dev', {
+            method: 'POST',
+            body: JSON.stringify({ name, email, suggestion }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.result === 'success') {
+                // Display success message
+                feedbackMessage.style.display = 'block';
+                feedbackMessage.textContent = 'Feedback sent successfully';
+                feedbackMessage.style.color = 'green';
+
+                // Clear form fields after submission
+                document.querySelector('input[placeholder="Name"]').value = '';
+                document.querySelector('input[placeholder="Email Address"]').value = '';
+                document.querySelector('input[placeholder="Movie/Series Suggestion"]').value = '';
+
+                // Hide message after 3 seconds
+                setTimeout(() => {
+                    feedbackMessage.style.display = 'none';
+                }, 3000);
+            } else {
+                throw new Error(data.error);
+            }
+        })
+        .catch(error => {
+            // Display error message
+            feedbackMessage.style.display = 'block';
+            feedbackMessage.textContent = 'Error sending feedback. Please try again.';
+            feedbackMessage.style.color = 'red';
+            console.error('Error!', error.message);
+        });
+    });
+   /*----------------------------*/
 
     // Close form when clicking outside of it
     feedbackOverlay.addEventListener('click', function(event) {
@@ -278,6 +336,7 @@ document.addEventListener('DOMContentLoaded', function() {
             feedbackOverlay.style.display = 'none';
         }
     });
+
     /*---------------------------mp4 media player overlay -------------------------*/ 
     /*
     function createMediaPlayer(link) {

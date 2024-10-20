@@ -386,7 +386,7 @@ footer {
 /*-------------------for android mode---------------------*/
 /* Responsive Design */
 
-@media (max-width: 470px) {
+@media (max-width: 100%) {
   .logo img {
       width: 40px;
       height: 40px;

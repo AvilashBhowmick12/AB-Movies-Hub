@@ -242,6 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const minimizeIcon = document.getElementById('minimize-icon');
     const sendBtn = document.getElementById('send-btn');
     const feedbackMessage = document.getElementById('feedback-message');
+    const feedbackForm = document.getElementById('feedback-form');
     const movieList = document.getElementById('movie-list');
 
     /*--------for mp4 media player--------*//*
@@ -268,6 +269,13 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('name').value = ''; // Clear the form fields
         document.getElementById('email').value = '';
         document.getElementById('suggestion').value = '';
+    });
+
+    // Close form when clicking outside of it
+    feedbackOverlay.addEventListener('click', function(event) {
+        if (!feedbackForm.contains(event.target) && !sendBtn.contains(event.target)) {
+            feedbackOverlay.style.display = 'none';
+        }
     });
     /*---------------------------mp4 media player overlay -------------------------*/ 
     /*

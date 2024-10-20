@@ -279,9 +279,9 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault(); // Prevent form submission behavior
 
         // Get input values from the form fields
-        const name = document.querySelector('input[placeholder="Name"]').value;
-        const email = document.querySelector('input[placeholder="Email Address"]').value;
-        const suggestion = document.querySelector('input[placeholder="Movie/Series Suggestion"]').value;
+        const name = document.getElementById('name-input').value;
+        const email = document.getElementById('email-input').value;
+        const suggestion = document.getElementById('suggestion-input').value;
 
         // Check if any input is empty
         if (!name || !email || !suggestion) {
@@ -308,9 +308,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 feedbackMessage.style.color = 'green';
 
                 // Clear form fields after submission
-                document.querySelector('input[placeholder="Name"]').value = '';
-                document.querySelector('input[placeholder="Email Address"]').value = '';
-                document.querySelector('input[placeholder="Movie/Series Suggestion"]').value = '';
+                document.getElementById('name-input').value = '';
+                document.getElementById('email-input').value = '';
+                document.getElementById('suggestion-input').value = '';
 
                 // Hide message after 3 seconds
                 setTimeout(() => {
@@ -332,7 +332,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Close form when clicking outside of it
     feedbackOverlay.addEventListener('click', function(event) {
-        if (!feedbackForm.contains(event.target) && !sendBtn.contains(event.target)) {
+        if (feedbackForm && !feedbackForm.contains(event.target) && !sendBtn.contains(event.target)) {
             feedbackOverlay.style.display = 'none';
         }
     });

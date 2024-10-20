@@ -294,6 +294,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Sending data to Google Apps Script Web App
         fetch('https://script.google.com/macros/s/AKfycbxpHy7dowLHk2VCVdqo0Cq5v5Zm6bO_IyIIICJchOs/dev', {
             method: 'POST',
+            mode: 'cors',
             body: JSON.stringify({ name, email, suggestion }),
             headers: {
                 'Content-Type': 'application/json'

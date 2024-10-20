@@ -399,12 +399,15 @@ footer {
   body {
     overflow-x: hidden;
   }
-  /*feedback overlay*/
+  /*feedback overlay*//*
   .feedback-overlay {
     position: fixed;
+    height: 70%;
+    width: 70%;
     justify-content: center;
     align-items: center;
   }
+  */
   /* feedback form adjustments*/
   .feedback-form {
     padding: 10px;

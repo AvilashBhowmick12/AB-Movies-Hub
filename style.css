@@ -68,8 +68,7 @@ header {
   align-items: center;
   justify-content: flex-end;
   padding: auto;
-  position: fixed;
-  right:2vw;
+  position: relative;
   margin-right: 20px;
 }
 

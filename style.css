@@ -145,7 +145,7 @@ header {
 /* Movie Grid Layout */
 #movie-list {
   display: grid; 
-  grid-template-columns: repeat(5, 1fr); 
+  grid-template-columns: repeat(4, 1fr); 
   grid-template-rows: auto; 
   gap: 20px; 
   padding: 4vw; 
@@ -160,9 +160,9 @@ header {
 
 /* Movie Card Styling */
 .movie-card {
-  position:relative;
+  position: relative;
   width: 15vw; 
-  /* background-color: white; */
+  background-color: white;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -183,7 +183,7 @@ header {
 .movie-card img {
   width: 100%;
   height: 100%;
-  display: block;
+  /* display: block; */
   transition: all 1s;
   aspect-ratio: 3/4;
 }
@@ -197,28 +197,29 @@ header {
 /* .movie-links{
 } */
 
-.movie-links:hover{
+.movie-links: hover{
   opacity: 1;
   /* display: none; */
 }
 
 .movie-title {
   position: absolute;
-  height:100%;
+  height: 100%;
   bottom: 0;
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: last baseline;
   /* background-color: #000000; */
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0) 100%);
   /* background-color: #000000ce; */
   color: white;
   padding: 10px;
   text-align: center;
+  /*
   transform: translateY(100%); 
-  transition: transform 0.4s; 
+  transition: transform 0.4s; */
 }
 
 .movie-card:hover .movie-title {

@@ -219,7 +219,6 @@ header {
   gap: 20px; 
   padding: 4vw; 
   justify-items: center; 
-  background-color: rgba(42, 42, 42, 0.126);
 }
 
 /* Movie Card Styling */
@@ -240,15 +239,15 @@ header {
 
 .movie-card:hover {
   opacity: 1;
+  transform: scale(1.05);
+  border-color: #ff5722;
 }
 
 .movie-card img {
   width: 100%;
   height: 100%;
-  display: block;
-  object-fit: cover;
   transition: all 1s;
-  /* aspect-ratio: 3/4;  */
+  aspect-ratio: 3/4;
 }
 .movie-card:hover img {
   transform: scale(1.1);
@@ -272,7 +271,7 @@ header {
   right: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: last baseline;
   /* background-color: #000000; */
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0) 100%);
   /* background-color: #000000ce; */

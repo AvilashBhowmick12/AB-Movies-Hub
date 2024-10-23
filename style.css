@@ -47,7 +47,7 @@ header {
   background-color: rgba(8, 8, 8, 0.801); /* Semi-transparent background;*/
   color: white;
   padding: 15px;
-  /* position: fixed; */
+  position: fixed; 
   /* width: 100vw; */
   top: 0;
   backdrop-filter: blur(8px); /* Adds blur effect */

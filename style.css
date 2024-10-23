@@ -591,11 +591,6 @@ footer {
   }
 */
 @media (max-width: 470px) {
-
-.body {
-  background-color: radial-gradient(circle, rgba(75,75,75,1) 0%, rgba(0,0,0,1) 100%);
-}
-  
   .logo img {
       width: 40px;
       height: 40px;
@@ -615,13 +610,11 @@ footer {
   /*movie cards adjustemnts*/
   .movie-card {
       width: calc(100% - 8px);
-      height : 80%;
+      height : 75%;
   }
   /*-- adjust movie title --*/
   .movie-title {
-        justify-content: center;
-        text-align: center; 
-        font-size: 60%;
+  font-size: 60%;
   }
 
   /* presewvent horizontal scsrolling*/

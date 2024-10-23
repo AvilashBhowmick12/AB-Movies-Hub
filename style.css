@@ -44,11 +44,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(8, 8, 8, 0.801); /* Semi-transparent background;*/
+  background-color: rgba(71, 71, 71, 0.801); /* Semi-transparent background;*/
   color: white;
   padding: 15px;
   position: fixed; 
-  /* width: 100vw; */
+  width: 100vw;
   top: 0;
   backdrop-filter: blur(8px); /* Adds blur effect */
   -webkit-backdrop-filter: blur(10px); /* For Safari support */

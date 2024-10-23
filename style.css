@@ -163,29 +163,31 @@ header {
   position:relative;
   width: 15vw; 
   /* background-color: white; */
-  border-radius: 25px;
+  border-radius: 15px;
   overflow: hidden;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   max-width: 100%;
   height:100%;
   transition: all 0.2s;
-  /* border: 2px solid rgb(255, 87, 34); */
+  border: 2px solid rgb(255, 87, 34);
   opacity: 0.8;
 }
 
 .movie-card:hover {
   opacity: 1;
+  transform: scale(1.05);
+  border-color: #ff5722;
 }
 
 .movie-card img {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
   transition: all 1s;
-  /* aspect-ratio: 3/4;  */
+  aspect-ratio: 3/4;
 }
+
 .movie-card:hover img {
   transform: scale(1.1);
   transition: all 0.3s;

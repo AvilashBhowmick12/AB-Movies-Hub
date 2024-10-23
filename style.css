@@ -56,7 +56,7 @@ header {
   height: 60px;
 }
 
-/* Search Bar */
+/* Search Bar */ /*
 .search-bar {
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@ header {
   padding: auto;
   position: fixed;
   right:2vw;
-  /* margin-right: 30px; */
+  /* margin-right: 30px; */ /*
 }
 
 .container {
@@ -81,26 +81,26 @@ header {
   padding-left: var(--size-button);
   height: var(--size-button);
   font-size: 15px;
-  /* margin:2vw; */
+  /* margin:2vw; */ /*
   border: none;
   color: #fff;
   outline: none;
-  width: 20px;/*var(--size-button); */
+  width: 20px;/*var(--size-button); */ /*
   transition: all ease 0.3s;
   background-color: #3b574c;
-  /* box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e; */
+  /* box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e; */ /*
   border-radius: 50px;
   cursor: pointer;
   max-width: 100%;
 }
 
 .input::placeholder {
-  color: #999999; /* Example: Light gray */
+  color: #999999; /* Example: Light gray */ /*
   opacity: 0;
 }
 .input:focus::placeholder {
-  color: #999999; /* Example: Light gray */
-  opacity: 1;     /* Ensures the placeholder is fully visible */
+  color: #999999; /* Example: Light gray */ /*
+  opacity: 1;     /* Ensures the placeholder is fully visible */ /*
 }
 
 .input:focus,
@@ -131,6 +131,80 @@ header {
   width: 90%;
   height: 90%;
 }
+/* 23-10-24 */
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  margin-right: 30px;
+}
+
+.search-bar .container {
+  position: relative;
+  --size-button: 40px;
+  color: white;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-bar .input {
+  padding-left: var(--size-button);
+  height: var(--size-button);
+  font-size: 15px;
+  border: none;
+  color: #fff;
+  outline: none;
+  width: var(--size-button);
+  transition: all ease 0.3s;
+  background-color: #191A1E;
+  box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;
+  border-radius: 50px;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.search-bar .input::placeholder {
+  color: #999999; /* Example: Light gray */
+  opacity: 0;
+}
+.search-bar .input:focus::placeholder {
+  color: #999999; /* Example: Light gray */
+  opacity: 1;     /* Ensures the placeholder is fully visible */
+}
+
+.search-bar .input:focus,
+.input:not(:invalid) {
+  width: 200px;
+  max-width: 100%;
+  cursor: text;
+  box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e;
+}
+
+.search-bar .input:focus + .icon,
+.input:not(:invalid) + .icon {
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.search-bar .container .icon {
+  position: absolute;
+  width: var(--size-button);
+  height: var(--size-button);
+  top: 60%;
+  left: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.search-bar .container .icon svg {
+  width: 90%;
+  height: 90%;
+}
+/* 23-10-24 */
 
 /* Movie Grid Layout */
 #movie-list {

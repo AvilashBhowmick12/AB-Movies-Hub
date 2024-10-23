@@ -74,13 +74,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: auto;
-  position: fixed;
-  right:2vw;
-  /* margin-right: 30px; */
+  position: relative;
+  margin-right: 30px;
 }
 
-.container {
+.search-bar .container {
   position: relative;
   --size-button: 40px;
   color: white;
@@ -90,33 +88,32 @@ header {
   justify-content: flex-end;
 }
 
-.input {
+.search-bar .input {
   padding-left: var(--size-button);
   height: var(--size-button);
   font-size: 15px;
-  /* margin:2vw; */
   border: none;
   color: #fff;
   outline: none;
-  width: 20px;/*var(--size-button); */
+  width: var(--size-button);
   transition: all ease 0.3s;
-  background-color: #3b574c;
-  /* box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e; */
+  background-color: #191A1E;
+  box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;
   border-radius: 50px;
   cursor: pointer;
   max-width: 100%;
 }
 
-.input::placeholder {
+.search-bar .input::placeholder {
   color: #999999; /* Example: Light gray */
   opacity: 0;
 }
-.input:focus::placeholder {
+.search-bar .input:focus::placeholder {
   color: #999999; /* Example: Light gray */
   opacity: 1;     /* Ensures the placeholder is fully visible */
 }
 
-.input:focus,
+.search-bar .input:focus,
 .input:not(:invalid) {
   width: 200px;
   max-width: 100%;
@@ -124,13 +121,13 @@ header {
   box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e;
 }
 
-.input:focus + .icon,
+.search-bar .input:focus + .icon,
 .input:not(:invalid) + .icon {
   pointer-events: all;
   cursor: pointer;
 }
 
-.container .icon {
+.search-bar .container .icon {
   position: absolute;
   width: var(--size-button);
   height: var(--size-button);
@@ -140,11 +137,10 @@ header {
   pointer-events: none;
 }
 
-.container .icon svg {
+.search-bar .container .icon svg {
   width: 90%;
   height: 90%;
 }
-
 /* Movie Grid Layout */
 #movie-list {
   display: grid; 

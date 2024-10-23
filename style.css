@@ -166,7 +166,7 @@ html {
   --_c: #0000 66%, #20222a 68% 70%, #0000 72%;
 }
 
-/* Movie Card Styling */
+/* Movie Card Styling *//*
 .movie-card {
   position: relative;
   width: 15vw; 
@@ -191,7 +191,7 @@ html {
 .movie-card img {
   width: 100%;
   height: 100%;
-  /* display: block; */
+  /* display: block; *//*
   transition: all 1s;
   aspect-ratio: 3/4;
 }
@@ -199,20 +199,83 @@ html {
 .movie-card:hover img {
   transform: scale(1.1);
   transition: all 0.3s;
-  /* aspect-ratio: 3/4;  */
+  /* aspect-ratio: 3/4;  *//*
 }
 
 /* .movie-links{
-} */
+} *//*
 
 .movie-links: hover{
   opacity: 1;
-  /* display: none; */
+  /* display: none; *//*
 }
 
 .movie-title {
   position: absolute;
   height: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  /* background-color: #000000; *//*
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0) 100%);
+  /* background-color: #000000ce; *//*
+  color: white;
+  padding: 10px;
+  text-align: center;
+  /*
+  transform: translateY(100%); 
+  transition: transform 0.4s; *//*
+}
+
+.movie-card:hover .movie-title {
+  transform: translateY(0); /* Slide in on hover *//*
+}
+
+.movie-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.863); /* Overlay color *//*
+  opacity: 0; /* Initially hidden *//*
+  transition: opacity 0.5s; /* Smooth fade effect *//*
+}
+
+.movie-card:hover::before {
+  opacity: 1; /* Show overlay on hover *//*
+}
+/* Movie Card Styling */
+.movie-card {
+  position: relative;
+  width: 250px; /* Fixed width for consistency */
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+  border: 2px solid rgb(255, 87, 34); /* Highlight border */
+  opacity: 0.8;
+}
+
+.movie-card:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  border-color: #ff5722; /* Darker hover border */
+}
+
+.movie-card img {
+  width: 100%;
+  aspect-ratio: 3/4; /* Maintain aspect ratio */
+}
+.movie-title {
+  position: absolute;
+  height:100%;
   bottom: 0;
   left: 0;
   right: 0;
@@ -225,31 +288,7 @@ html {
   color: white;
   padding: 10px;
   text-align: center;
-  /*
-  transform: translateY(100%); 
-  transition: transform 0.4s; */
 }
-
-.movie-card:hover .movie-title {
-  transform: translateY(0); /* Slide in on hover */
-}
-
-.movie-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.863); /* Overlay color */
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.5s; /* Smooth fade effect */
-}
-
-.movie-card:hover::before {
-  opacity: 1; /* Show overlay on hover */
-}
-
 /*-------------------------------------------------*/
 /* Video Player Overlay */
 /* Media Player Overlay */

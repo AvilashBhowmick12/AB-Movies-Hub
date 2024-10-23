@@ -589,8 +589,7 @@ footer {
 @@ -392,25 +392,47 @@ footer {
       height: 40px;
   }
-*/
-@media (max-width: 470px) {
+*/@media (max-width: 470px) {
   .logo img {
       width: 40px;
       height: 40px;
@@ -637,4 +636,6 @@ footer {
     width: 80%;
     position: relative;
   }
+}
+
 }

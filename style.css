@@ -19,7 +19,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  padding-top: 100px; /* Adjust this as per your header */
   max-width: 100vw;
   box-sizing: border-box;
   background: radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 

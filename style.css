@@ -27,8 +27,9 @@ body {
               radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
               repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
               radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+  background-attachment: fixed;
 }
-/*
+
 html {
   --s: 50px;
   --c: #191b22;
@@ -45,7 +46,7 @@ header {
   align-items: center;
   background-color: rgba(8, 8, 8, 0.801); /* Semi-transparent background;*/
   color: white;
-  padding: 2vw;
+  padding: 15px;
   /* position: fixed; */
   /* width: 100vw; */
   top: 0;

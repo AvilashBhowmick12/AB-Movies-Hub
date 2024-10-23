@@ -209,12 +209,17 @@ header {
 /* Movie Grid Layout */
 #movie-list {
   display: grid; 
-  grid-template-columns: repeat(5, 1fr); 
+  grid-template-columns: repeat(4, 1fr); 
   grid-template-rows: auto; 
   gap: 20px; 
   padding: 4vw; 
   justify-items: center; 
-  background-color: #000808;
+  background-color: radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
+  radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
+  radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
+  radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
+  repeating-conic-gradient(var(--c) 0 25%,#00000000 0 50%) 0 0/var(--_s), 
+  radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
 }
 
 /* Movie Card Styling */

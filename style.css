@@ -157,6 +157,7 @@ header {
   repeating-conic-gradient(var(--c) 0 25%,#00000000 0 50%) 0 0/var(--_s), 
   radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
   /* #000808; */
+}
   html {
   --s: 50px;
   --c: #191b22;
@@ -164,7 +165,6 @@ header {
   --_g: 35.36% 35.36% at;
   --_c: #0000 66%, #20222a 68% 70%, #0000 72%;
   }
-}
 
 /* Movie Card Styling *//*
 .movie-card {

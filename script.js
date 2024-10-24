@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Transformers 5: The Last Knight 2017 ", image: "images/movie161.jpg", link: "    https://drive.google.com/drive/folders/1PyTIegpa66PSnYksHVZNo84ghE_5hniW    "},
+    { title: " Transformers 4: Age of Extinction 2014 ", image: "images/movie160.jpg", link: "    https://drive.google.com/drive/folders/10ZY2-0hsE30MQuun_j8ECr4heygm5VVm    "},
     { title: " Transformers 3: Dark of the Moon 2011 ", image: "images/movie159.jpg", link: "    https://drive.google.com/drive/folders/1fMA2Cqz2ELbaQjnU_5pUqdVdsfjWtnXT    "},
     { title: " Transformers 2: Revenge of the Fallen 2009 ", image: "images/movie158.jpg", link: "    https://drive.google.com/drive/folders/1r8X8ReMTvWPHwvwIO6hbBEfg-jJ1jm-1    "},
     { title: " Transformers 2007 ", image: "images/movie157.jpg", link: "    https://drive.google.com/drive/folders/1tv9ZCgcbG3jzT0ZXvKU7dcDXuPvicvOB    "},

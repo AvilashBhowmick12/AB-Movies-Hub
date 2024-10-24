@@ -18,6 +18,9 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Transformers 3: Dark of the Moon 2011 ", image: "images/movie159.jpg", link: "    https://drive.google.com/drive/folders/1fMA2Cqz2ELbaQjnU_5pUqdVdsfjWtnXT    "},
+    { title: " Transformers 2: Revenge of the Fallen 2009 ", image: "images/movie158.jpg", link: "    https://drive.google.com/drive/folders/1r8X8ReMTvWPHwvwIO6hbBEfg-jJ1jm-1    "},
+    { title: " Transformers 2007 ", image: "images/movie157.jpg", link: "    https://drive.google.com/drive/folders/1tv9ZCgcbG3jzT0ZXvKU7dcDXuPvicvOB    "},
     { title: " Khel Khel Mein 2024 ", image: "images/movie156.jpg", link: "    https://drive.google.com/drive/folders/1m_9P2LiLX37ebUpLOhc38804XuHt2u19    "},
     { title: " The Wild Robot 2024  ", image: "images/movie155.jpg", link: "    https://drive.google.com/drive/folders/1MPbqMK77qP4Yko4cy6EyTnLvNDitySFe    "},
     { title: "  Mismatched Netflix  ", image: "images/movie154.jpg", link: "    https://drive.google.com/drive/folders/1pEfgk32JcWiSET814M6khaY09rVuA1IR    "},

@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Khel Khel Mein 2024 ", image: "images/movie156.jpg", link: "    https://drive.google.com/drive/folders/1m_9P2LiLX37ebUpLOhc38804XuHt2u19    "},
     { title: " The Wild Robot 2024  ", image: "images/movie155.jpg", link: "    https://drive.google.com/drive/folders/1MPbqMK77qP4Yko4cy6EyTnLvNDitySFe    "},
     { title: "  Mismatched Netflix  ", image: "images/movie154.jpg", link: "    https://drive.google.com/drive/folders/1pEfgk32JcWiSET814M6khaY09rVuA1IR    "},
     { title: "	The Frog (Season 1)	", image: "images/movie153.jpg", link: "	https://drive.google.com/drive/folders/1Y6nDcWX1gGx2JbBoSjwXETbSDV2LYcai	" },

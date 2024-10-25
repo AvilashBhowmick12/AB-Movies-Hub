@@ -18,6 +18,10 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Transformers 6: Rise of the Beasts 2023 ", image: "images/movie165.jpg", link: "    https://drive.google.com/drive/folders/12lPcNIWCZ0sNBE75xagOCuCLyTRk6IxW    " },
+    { title: " Venom 3 The Last Dance 2024 ", image: "images/movie164.jpg", link: "    https://drive.google.com/drive/folders/1Ri3tfLx5Z7-VCCMoxWOQaRjEhIM1a0Cm    "},
+    { title: " Venom 2 Let there be carnage 2021 ", image: "images/movie163.jpg", link: "    https://drive.google.com/drive/folders/17mXgYrSWnJvcd8FwRpDNxTFpiWuMuFwB    "},
+    { title: " Venom 1 2018 ", image: "images/movie162.jpg", link: "    https://drive.google.com/drive/folders/10zCknCY3ZK0GmbsBCExOUIVPMR4AoTvS    "},
     { title: " Transformers 5: The Last Knight 2017 ", image: "images/movie161.jpg", link: "    https://drive.google.com/drive/folders/1PyTIegpa66PSnYksHVZNo84ghE_5hniW    "},
     { title: " Transformers 4: Age of Extinction 2014 ", image: "images/movie160.jpg", link: "    https://drive.google.com/drive/folders/10ZY2-0hsE30MQuun_j8ECr4heygm5VVm    "},
     { title: " Transformers 3: Dark of the Moon 2011 ", image: "images/movie159.jpg", link: "    https://drive.google.com/drive/folders/1fMA2Cqz2ELbaQjnU_5pUqdVdsfjWtnXT    "},

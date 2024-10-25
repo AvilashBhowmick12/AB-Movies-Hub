@@ -367,6 +367,7 @@ color: #333;
   background: transparent;
   border: 0px;
   border-bottom: 2px solid #c5ecfd;
+  border-radius: 15px;
   padding: 10px;
   color: #c5ecfd;
   width: 100%;

@@ -350,6 +350,7 @@ color: #333;
 .contact-form{
   display: flex;
 }
+.input ,
 .input-fields{
   display: flex;
   flex-direction: column;

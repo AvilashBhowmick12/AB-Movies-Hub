@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Bhool Bhulaiyaa 3 2024 ", image: "images/movie169.jpg", link: "    https://drive.google.com/file/d/1JqD3UrNp0CLI_29ncLB5GGy1YTg9vUSC/view?usp=sharing    " },
+    { title: " Singam Again 2024 ", image: "images/movie168.jpg", link: "    https://drive.google.com/file/d/1Lc64iJ5Z0xmbGCDKpFWT_y5sqwxheJse/view?usp=sharing    " },
     { title: " Family - The Unbreakable Bond S1 ", image: "images/movie167.jpg", link: "    https://drive.google.com/drive/folders/1q3s7zmI_ZT3fgItleDhTzuPKkueh-xLn    " },
     { title: " Do Patti 2024 - netflix ", image: "images/movie166.jpg", link: "    https://drive.google.com/file/d/1Oc_3Q_6Bc-nBANLF9_39XktGRU7NXQtV    " },
     { title: " Transformers 6: Rise of the Beasts 2023 ", image: "images/movie165.jpg", link: "    https://drive.google.com/drive/folders/12lPcNIWCZ0sNBE75xagOCuCLyTRk6IxW    " },

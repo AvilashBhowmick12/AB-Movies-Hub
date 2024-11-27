@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Seoul Busters ", image: "images/movie174.jpg", link: "    https://drive.google.com/drive/folders/1utM-FQfGihL6CZ1ZHicsYMqmyXEbN6du    " },
     { title: " Upload Series ", image: "images/movie173.jpg", link: "    https://drive.google.com/drive/folders/14T_Sy2gam2ez8mCzRs4o-iQu2VLUf1x6    " },
     { title: " Talmar Romeo Juliet Hoichoi 2024 ", image: "images/movie172.jpg", link: "    https://drive.google.com/file/d/1YJbXeVaQ6r1f_uXCL9n2KC_wl19fHeal/view    " },
     { title: " Citadel Honey Bunny S1 ", image: "images/movie171.jpg", link: "    https://drive.google.com/drive/folders/15XnVpHOJkQOj9i-A6MSYTUx6gUyQUU1k    " },

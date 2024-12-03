@@ -18,7 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
-    { title: " Lucky Baskhar 2024 ", image: "images/movie175.jpg", link: "    https://drive.google.com/drive/folders/1x85ovdes8oOISnfJh9wkZx1PAseT-P3x    " },
+    { title: " Lucky Baskhar 2024 ", image: "images/movie175.jpg", link: "    https://drive.google.com/file/d/1RUk6GmKLkhx8sU9Jeqf0MEus0sYK3ZYl/view?    " },
     { title: " Seoul Busters ", image: "images/movie174.jpg", link: "    https://drive.google.com/drive/folders/1utM-FQfGihL6CZ1ZHicsYMqmyXEbN6du    " },
     { title: " Upload Series ", image: "images/movie173.jpg", link: "    https://drive.google.com/drive/folders/14T_Sy2gam2ez8mCzRs4o-iQu2VLUf1x6    " },
     { title: " Talmar Romeo Juliet Hoichoi 2024 ", image: "images/movie172.jpg", link: "    https://drive.google.com/file/d/1YJbXeVaQ6r1f_uXCL9n2KC_wl19fHeal/view    " },

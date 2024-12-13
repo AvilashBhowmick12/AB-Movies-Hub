@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Mismatched Season 03 2024 Netflix ", image: "images/movie178.jpg", link: "    https://drive.google.com/drive/folders/1XL0booPkx88gIoANZFnsrw28bUqt18PK    " },
     { title: " Pushpa - the rule 2024 ", image: "images/movie177.jpg", link: "    https://drive.google.com/drive/folders/11CdEBxfzpAXD9MiK7Sr7PXA_5MPsluX3    " },
     { title: " Pushpa - the rise 2024 ", image: "images/movie176.jpg", link: "    https://drive.google.com/drive/folders/1Mk2GdHhjGcndskt_clwqGN-YVu6C-z_m    " },
     { title: " Lucky Baskhar 2024 ", image: "images/movie175.jpg", link: "    https://drive.google.com/file/d/1RUk6GmKLkhx8sU9Jeqf0MEus0sYK3ZYl/view?    " },

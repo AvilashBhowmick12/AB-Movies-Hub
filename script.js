@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Feludar Goyendagiri S2 ", image: "images/movie181.jpg", link: "    https://drive.google.com/drive/folders/14GbKYfySi9PO4yZdb3OPyCwnnwYya7vp    " },
+    { title: " Feludar Goyendagiri S1 ", image: "images/movie180.jpg", link: "    https://drive.google.com/drive/folders/1fJNj8JIae-1byNDT0pip3rPNrY5NfYw2    " },
     { title: " Khadaan 2024 Bengali ", image: "images/movie179.jpg", link: "    https://drive.google.com/drive/folders/1G1v4onNkC6ViNg8nA67MrTyYGzWH049C    " },
     { title: " Mismatched Season 03 2024 Netflix ", image: "images/movie178.jpg", link: "    https://drive.google.com/drive/folders/1XL0booPkx88gIoANZFnsrw28bUqt18PK    " },
     { title: " Pushpa - the rule 2024 ", image: "images/movie177.jpg", link: "    https://drive.google.com/drive/folders/11CdEBxfzpAXD9MiK7Sr7PXA_5MPsluX3    " },

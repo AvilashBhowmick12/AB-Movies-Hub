@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " UI 2024 ", image: "images/movie183.jpg", link: "    https://drive.google.com/drive/folders/1hrJ-v71IVkN-vGWbesw1I8YHs3jSewUE    " },
+    { title: " Baby John 2024 ", image: "images/movie182.jpg", link: "    https://drive.google.com/drive/folders/1MQe5XXfrWZmdz1b-F6UmgWeVXmEJIPn-    " },
     { title: " Feludar Goyendagiri S2 ", image: "images/movie181.jpg", link: "    https://drive.google.com/drive/folders/14GbKYfySi9PO4yZdb3OPyCwnnwYya7vp    " },
     { title: " Feludar Goyendagiri S1 ", image: "images/movie180.jpg", link: "    https://drive.google.com/drive/folders/1fJNj8JIae-1byNDT0pip3rPNrY5NfYw2    " },
     { title: " Khadaan 2024 Bengali ", image: "images/movie179.jpg", link: "    https://drive.google.com/drive/folders/1G1v4onNkC6ViNg8nA67MrTyYGzWH049C    " },

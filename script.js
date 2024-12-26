@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Squid Game S2 | Netflix ", image: "images/movie184.jpg", link: "    https://drive.google.com/drive/folders/1M_Bx3NO9mrDkC6lnupuOcgpSN4unKVPi    " },
     { title: " UI 2024 ", image: "images/movie183.jpg", link: "    https://drive.google.com/drive/folders/1hrJ-v71IVkN-vGWbesw1I8YHs3jSewUE    " },
     { title: " Baby John 2024 ", image: "images/movie182.jpg", link: "    https://drive.google.com/drive/folders/1MQe5XXfrWZmdz1b-F6UmgWeVXmEJIPn-    " },
     { title: " Feludar Goyendagiri S2 ", image: "images/movie181.jpg", link: "    https://drive.google.com/drive/folders/14GbKYfySi9PO4yZdb3OPyCwnnwYya7vp    " },

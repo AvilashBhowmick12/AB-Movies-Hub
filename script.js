@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Alice in Borderland ", image: "images/movie185.jpg", link: "    https://drive.google.com/drive/folders/1b2VTuE6tR8fSWMK5fq5S0imJbFaVoTvr    " },
     { title: " Squid Game S2 | Netflix ", image: "images/movie184.jpg", link: "    https://drive.google.com/drive/folders/1M_Bx3NO9mrDkC6lnupuOcgpSN4unKVPi    " },
     { title: " UI 2024 ", image: "images/movie183.jpg", link: "    https://drive.google.com/drive/folders/1hrJ-v71IVkN-vGWbesw1I8YHs3jSewUE    " },
     { title: " Baby John 2024 ", image: "images/movie182.jpg", link: "    https://drive.google.com/drive/folders/1MQe5XXfrWZmdz1b-F6UmgWeVXmEJIPn-    " },

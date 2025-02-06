@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    
+    { title: " Kaalratri S1 Hoichoi ", image: "images/movie188.jpg", link: "    https://drive.google.com/drive/folders/1pP23DzdVWmsUA1eI0c7SYRkMcSgUYjGX    " },
     { title: " Eken Babu ", image: "images/movie187.jpg", link: "    https://drive.google.com/drive/folders/1MsGd9y8s3TqK4GKel0EGyCifOefU0-94    " },
     { title: " Marco 20241 ", image: "images/movie186.jpg", link: "    https://drive.google.com/drive/folders/1C2jTTJrSO35jGXg2oMSmMC0vsi4OSVrG    " },
     { title: " Alice in Borderland ", image: "images/movie185.jpg", link: "    https://drive.google.com/drive/folders/1b2VTuE6tR8fSWMK5fq5S0imJbFaVoTvr    " },

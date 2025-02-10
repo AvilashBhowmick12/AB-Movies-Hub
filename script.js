@@ -18,7 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
-    
+    { title: " BadAss RAviKumar 2025 ", image: "images/movie189.jpg", link: "    https://drive.google.com/drive/folders/1Qb1NGDwlTQG37EYz96yoLWd_mu-IPmTZ    " },
     { title: " Kaalratri S1 Hoichoi ", image: "images/movie188.jpg", link: "    https://drive.google.com/drive/folders/1pP23DzdVWmsUA1eI0c7SYRkMcSgUYjGX    " },
     { title: " Eken Babu ", image: "images/movie187.jpg", link: "    https://drive.google.com/drive/folders/1MsGd9y8s3TqK4GKel0EGyCifOefU0-94    " },
     { title: " Marco 20241 ", image: "images/movie186.jpg", link: "    https://drive.google.com/drive/folders/1C2jTTJrSO35jGXg2oMSmMC0vsi4OSVrG    " },

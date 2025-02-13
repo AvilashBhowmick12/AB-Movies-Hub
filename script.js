@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Loveyapa 2025 ", image: "images/movie194.jpg", link: "    https://drive.google.com/drive/folders/1mmKvNAlyQfXD3I06z4NmkHHwfFje4dU0    " },
+    { title: " Kurup 2021 Netflix ", image: "images/movie193.jpg", link: "    https://drive.google.com/drive/folders/1nmrfYNOzu1anlBmNFJbRF0fnKx2kOF5O    " },
     { title: " Sky Force 2025 ", image: "images/movie192.jpg", link: "    https://drive.google.com/drive/folders/1rT4Y9D6Wp6Q9SBT1oijuUtz7ctITvHYV    " },
     { title: " Deva 2025 ", image: "images/movie191.jpg", link: "    https://drive.google.com/drive/folders/1uWhLwMmKF1uRFvUIxDA0H50wg4jCReO5    " },
     { title: " Mrs. Zee5 ", image: "images/movie190.jpg", link: "    https://drive.google.com/drive/folders/1ji5v94eCYR-b5-qAP7-gWzV_QvxdXaCD    " },

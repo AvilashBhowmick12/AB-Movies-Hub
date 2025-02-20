@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Dhoom Dhaam 2025 ", image: "images/movie195.jpg", link: "    https://drive.google.com/drive/folders/13VX4NNXsVauoMz9GD1pvx9RHtHKqjSrN    " },
     { title: " Loveyapa 2025 ", image: "images/movie194.jpg", link: "    https://drive.google.com/drive/folders/1mmKvNAlyQfXD3I06z4NmkHHwfFje4dU0    " },
     { title: " Kurup 2021 Netflix ", image: "images/movie193.jpg", link: "    https://drive.google.com/drive/folders/1nmrfYNOzu1anlBmNFJbRF0fnKx2kOF5O    " },
     { title: " Sky Force 2025 ", image: "images/movie192.jpg", link: "    https://drive.google.com/drive/folders/1rT4Y9D6Wp6Q9SBT1oijuUtz7ctITvHYV    " },

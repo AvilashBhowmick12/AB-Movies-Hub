@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Chhaava 2025 ", image: "images/movie197.jpg", link: "    https://drive.google.com/drive/folders/1CJbGqwEA9bvxh-YQyX4N1_epiN6ajwVP    " },
     { title: " Wonderland 2024 ", image: "images/movie196.jpg", link: "    https://drive.google.com/drive/folders/1WPm-34VZ2k4OFpcwCyaCkATg6QJrTFOx    " },
     { title: " Dhoom Dhaam 2025 ", image: "images/movie195.jpg", link: "    https://drive.google.com/drive/folders/13VX4NNXsVauoMz9GD1pvx9RHtHKqjSrN    " },
     { title: " Loveyapa 2025 ", image: "images/movie194.jpg", link: "    https://drive.google.com/drive/folders/1mmKvNAlyQfXD3I06z4NmkHHwfFje4dU0    " },

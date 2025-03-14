@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Newtopia 2025 ", image: "images/movie200.jpg", link: "    https://drive.google.com/drive/folders/1XKccXo_Mu4n6wC7pfALHDthpJLSwMZVw    " },
     { title: " Daredevil : Born Again 2025 ", image: "images/movie199.jpg", link: "    https://drive.google.com/drive/folders/120lJ8LtodwLhircn-F5zx-PFJTJEWWAk    " },
     { title: " Undercover High School 2025 ", image: "images/movie198.jpg", link: "    https://drive.google.com/drive/folders/1vo_RYb46Q8tQKFTNmUbtTG4JvCQmLV8o    " },
     { title: " Chhaava 2025 ", image: "images/movie197.jpg", link: "    https://drive.google.com/drive/folders/1CJbGqwEA9bvxh-YQyX4N1_epiN6ajwVP    " },

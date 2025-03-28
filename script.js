@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Zakir Khan Delulu Express 2025 - AmazonPrime ", image: "images/movie204.jpg", link: "    https://drive.google.com/drive/folders/1DwpgR928qSwEdXISyRhVQzfLjmiGcG_b    " },
     { title: " Khakee The Bengal Chapter ", image: "images/movie203.jpg", link: "    https://drive.google.com/drive/folders/1N18bars9tMPHvWI4CriYqLLpSvWoEhpO    " },
     { title: " The Secret Life of Pets 2 2019 ", image: "images/movie202.jpg", link: "    https://drive.google.com/drive/folders/11XKAuuS3az18JlKkDd22tZjC61o96C6n    " },
     { title: " The Secret Life of Pets 2016 ", image: "images/movie201.jpg", link: "    https://drive.google.com/drive/folders/10I6D4p3GMmntAflt1oFXyfY2vYqjkFi0    " },

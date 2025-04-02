@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Buried Hearts 2025 ", image: "images/movie206.jpg", link: "    https://drive.google.com/drive/folders/1OLGiYAGzKQObS1hWt7vXKpzUckx-bQng    " },
     { title: " The Divorce Insurance 2025 ", image: "images/movie205.jpg", link: "    https://drive.google.com/drive/folders/10a0bxH8yTRfcs4qY2gu6RHitf5OiFpNN    " },
     { title: " Zakir Khan Delulu Express 2025 - AmazonPrime ", image: "images/movie204.jpg", link: "    https://drive.google.com/drive/folders/1DwpgR928qSwEdXISyRhVQzfLjmiGcG_b    " },
     { title: " Khakee The Bengal Chapter ", image: "images/movie203.jpg", link: "    https://drive.google.com/drive/folders/1N18bars9tMPHvWI4CriYqLLpSvWoEhpO    " },

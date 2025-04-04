@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Hidden Love 2023 ", image: "images/movie208.jpg", link: "    https://drive.google.com/drive/folders/1YaFYstSxCikhea2oPNBEunAdIRtuuqXE    " },
     { title: " The First Frost 2025 ", image: "images/movie207.jpg", link: "    https://drive.google.com/drive/folders/1krg4Qtti_P-XUZIaGhszVOASo9Ww-zh9    " },
     { title: " Buried Hearts 2025 ", image: "images/movie206.jpg", link: "    https://drive.google.com/drive/folders/1OLGiYAGzKQObS1hWt7vXKpzUckx-bQng    " },
     { title: " The Divorce Insurance 2025 ", image: "images/movie205.jpg", link: "    https://drive.google.com/drive/folders/10a0bxH8yTRfcs4qY2gu6RHitf5OiFpNN    " },

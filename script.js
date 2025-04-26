@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Jewel Thief - The Heist Begins (2025) ", image: "images/movie21.jpg", link: "    https://drive.google.com/drive/folders/1E4L8Xs1MonZRmpmccPJppQoOlWgsGCgB    " },
     { title: " Shotyi Bole Shotyi Kichhu Nei (2025) Bengali ", image: "images/movie210.jpg", link: "    https://drive.google.com/drive/folders/1WF1ddpkUvFDNY4IeV9wf5VfcktpgJTzA    " },
     { title: " The Pursuit of Happyness 2006 ", image: "images/movie209.jpg", link: "    https://drive.google.com/drive/folders/1rbxM6ZfwqVs_3-GWUikieMcvwKDWSLgA    " },
     { title: " Hidden Love 2023 ", image: "images/movie208.jpg", link: "    https://drive.google.com/drive/folders/1YaFYstSxCikhea2oPNBEunAdIRtuuqXE    " },

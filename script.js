@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Ground Zero (2025) ", image: "images/movie213.jpg", link: "    https://drive.google.com/drive/folders/1wsYZdeVTPNIipAFMy72EGIg5Fb2NQO-A    " },
     { title: " Kesari Chapter 2 (2025) ", image: "images/movie212.jpg", link: "    https://drive.google.com/drive/folders/1Avzw4BQHTZXNEnIVFv-baxXhl6qddDIp    " },
     { title: " Jewel Thief - The Heist Begins (2025) ", image: "images/movie211.jpg", link: "    https://drive.google.com/drive/folders/1E4L8Xs1MonZRmpmccPJppQoOlWgsGCgB    " },
     { title: " Shotyi Bole Shotyi Kichhu Nei (2025) Bengali ", image: "images/movie210.jpg", link: "    https://drive.google.com/drive/folders/1WF1ddpkUvFDNY4IeV9wf5VfcktpgJTzA    " },

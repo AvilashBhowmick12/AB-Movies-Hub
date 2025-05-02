@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Bhog S1 2025 Hoichoi ", image: "images/movie215.jpg", link: "    https://drive.google.com/drive/folders/1m_NxM-Xwlzpzs4Iw7Xr0Tgh5PsElfetA    " },
     { title: " Raid 2 2025 ", image: "images/movie214.jpg", link: "    https://drive.google.com/drive/folders/17bjY0TkD4UfzUoqBF6rhv2ZHr05M17xK    " },
     { title: " Ground Zero (2025) ", image: "images/movie213.jpg", link: "    https://drive.google.com/drive/folders/1wsYZdeVTPNIipAFMy72EGIg5Fb2NQO-A    " },
     { title: " Kesari Chapter 2 (2025) ", image: "images/movie212.jpg", link: "    https://drive.google.com/drive/folders/1Avzw4BQHTZXNEnIVFv-baxXhl6qddDIp    " },

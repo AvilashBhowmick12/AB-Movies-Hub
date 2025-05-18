@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Mission Impossible - Final Reckoning 2025 ", image: "images/movie218.jpg", link: "    https://drive.google.com/drive/folders/1s6H_YsZjAuiJG9GHqa_jDosBRmwTyixS    " },
+    { title: " Final Destination Bloodlines 2025 ", image: "images/movie217.jpg", link: "    https://drive.google.com/drive/folders/1RHmhAzmOeeoR-eysIIr-NyuctvF2xRPt    " },
     { title: " Jaat 2025 ", image: "images/movie216.jpg", link: "    https://drive.google.com/drive/folders/1nN5v-sSCFHTIjIKq7VPCGda19yZuQ1q1    " },
     { title: " Bhog S1 2025 Hoichoi ", image: "images/movie215.jpg", link: "    https://drive.google.com/drive/folders/1m_NxM-Xwlzpzs4Iw7Xr0Tgh5PsElfetA    " },
     { title: " Raid 2 2025 ", image: "images/movie214.jpg", link: "    https://drive.google.com/drive/folders/17bjY0TkD4UfzUoqBF6rhv2ZHr05M17xK    " },

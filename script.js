@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Criminal Justice Behind Closed Doors (2020) S2", image: "images/movie222.jpg", link: "    https://drive.google.com/drive/folders/1nN5v-sSCFHTIjIKq7VPCGda19yZuQ1q1    " },
+    { title: " Criminal Justice: Adhura Sach 2022 (Season 3) ", image: "images/movie221.jpg", link: "    https://drive.google.com/drive/folders/1hS7MBImcbxxNHayoqLk7i6M1ZC19jrD-    " },
     { title: " Criminal Justice - A Family Matter (2025) Season 4 ", image: "images/movie220.jpg", link: "    https://drive.google.com/drive/folders/1dp537tECqQkwuiRFQ052VwKj3euoF0kF    " },
     { title: " Bhool Chuk Maaf 2025 ", image: "images/movie219.jpg", link: "    https://drive.google.com/drive/folders/1_RqAU2hRvaF00eHCRKs0H5moMNzI7yOZ    " },
     { title: " Mission Impossible - Final Reckoning 2025 ", image: "images/movie218.jpg", link: "    https://drive.google.com/drive/folders/1s6H_YsZjAuiJG9GHqa_jDosBRmwTyixS    " },

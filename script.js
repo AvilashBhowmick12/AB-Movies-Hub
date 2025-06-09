@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Criminal Justice - A Family Matter (2025) Season 4 ", image: "images/movie220.jpg", link: "    https://drive.google.com/drive/folders/1dp537tECqQkwuiRFQ052VwKj3euoF0kF    " },
     { title: " Bhool Chuk Maaf 2025 ", image: "images/movie219.jpg", link: "    https://drive.google.com/drive/folders/1_RqAU2hRvaF00eHCRKs0H5moMNzI7yOZ    " },
     { title: " Mission Impossible - Final Reckoning 2025 ", image: "images/movie218.jpg", link: "    https://drive.google.com/drive/folders/1s6H_YsZjAuiJG9GHqa_jDosBRmwTyixS    " },
     { title: " Final Destination Bloodlines 2025 ", image: "images/movie217.jpg", link: "    https://drive.google.com/drive/folders/1RHmhAzmOeeoR-eysIIr-NyuctvF2xRPt    " },

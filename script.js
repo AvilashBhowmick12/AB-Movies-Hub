@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Sitaare Zameen Par 2025", image: "images/movie225.jpg", link: "    https://drive.google.com/drive/folders/1s9ggpe3VQ2_ux0RzOcfec9aW7SCie61e    " },
     { title: " Ballerina (From the world of John Wick) 2025", image: "images/movie224.jpg", link: "    https://drive.google.com/drive/folders/1s9cz9A9SoIplixYFF-ORugHSJMmF68yx    " },
     { title: " Before Sunrise 1995", image: "images/movie223.jpg", link: "    https://drive.google.com/drive/folders/1X0v1u9Ppk7S6r3VCavM6d2k6HopP-DUq    " },
     { title: " Criminal Justice Behind Closed Doors (2020) S2", image: "images/movie222.jpg", link: "    https://drive.google.com/drive/folders/1kZJynyAEh8iPsXf7IhTDrjoBSQUhFRcC    " },

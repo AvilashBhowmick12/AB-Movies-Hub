@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Squid Game S03 2025", image: "images/movie227.jpg", link: "    https://drive.google.com/drive/folders/1JyDB6TWuNh7ePP2vHE4Hp1UNK9vLeBUW    " },
     { title: " Panchayat S1-S4", image: "images/movie226.jpg", link: "    https://drive.google.com/drive/folders/1Jtcd5biOwx_egLx6g5jShMUvdpgHOAJR    " },
     { title: " Sitaare Zameen Par 2025", image: "images/movie225.jpg", link: "    https://drive.google.com/drive/folders/1s9ggpe3VQ2_ux0RzOcfec9aW7SCie61e    " },
     { title: " Ballerina (From the world of John Wick) 2025", image: "images/movie224.jpg", link: "    https://drive.google.com/drive/folders/1s9cz9A9SoIplixYFF-ORugHSJMmF68yx    " },

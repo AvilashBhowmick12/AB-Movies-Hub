@@ -18,7 +18,10 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
-    { title: " Squid Game S03 2025", image: "images/movie227.jpg", link: "    https://drive.google.com/drive/folders/1JyDB6TWuNh7ePP2vHE4Hp1UNK9vLeBUW    " },
+    { title: " F1 The Movie 2025", image: "images/movie269.jpg", link: "    https://drive.google.com/drive/folders/1VNGXbP0lexrfb5G_VBsQoHJB3F1AGN0j    " },
+    { title: " Maa 2025", image: "images/movie270.jpg", link: "    https://drive.google.com/drive/folders/1FPixkGX-DwRi_L5RqdiKDlmF7ZeSJqzB    " },
+    { title: " Metro In Dino 2025", image: "images/movie268.jpg", link: "    https://drive.google.com/drive/folders/1ckPfmIiSlWs-rhPji_uA1P2QamDOpBq5    " },
+    { title: " Squid Game S03 2025", image: "images/movie267.jpg", link: "    https://drive.google.com/drive/folders/1JyDB6TWuNh7ePP2vHE4Hp1UNK9vLeBUW    " },
     { title: " Panchayat S1-S4", image: "images/movie226.jpg", link: "    https://drive.google.com/drive/folders/1Jtcd5biOwx_egLx6g5jShMUvdpgHOAJR    " },
     { title: " Sitaare Zameen Par 2025", image: "images/movie225.jpg", link: "    https://drive.google.com/drive/folders/1s9ggpe3VQ2_ux0RzOcfec9aW7SCie61e    " },
     { title: " Ballerina (From the world of John Wick) 2025", image: "images/movie224.jpg", link: "    https://drive.google.com/drive/folders/1s9cz9A9SoIplixYFF-ORugHSJMmF68yx    " },

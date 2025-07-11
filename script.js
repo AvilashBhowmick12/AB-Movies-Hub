@@ -18,7 +18,9 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
-    { title: " Stolen 2025 [Amazon Prime]", image: "images/movie227.jpg", link: "    hhttps://drive.google.com/drive/folders/1wBOVM_AgLISMIZMehr_J9XRWGJR88OUZ    " },
+    { title: " Aap Jaisa Koi 2025 [Netflix]", image: "images/movie229.jpg", link: "    hhttps://drive.google.com/drive/folders/1wBOVM_AgLISMIZMehr_J9XRWGJR88OUZ    " },
+    { title: " Maalik 2025 ", image: "images/movie228.jpg", link: "    https://drive.google.com/drive/folders/1eHshfFOFXGSUK3PTqa4CtBCSeM4EUHnq    " },
+    { title: " Stolen 2025 [Amazon Prime]", image: "images/movie227.jpg", link: "    https://drive.google.com/drive/folders/1wBOVM_AgLISMIZMehr_J9XRWGJR88OUZ    " },
     { title: " F1 The Movie 2025", image: "images/movie269.jpg", link: "    https://drive.google.com/drive/folders/1VNGXbP0lexrfb5G_VBsQoHJB3F1AGN0j    " },
     { title: " Maa 2025", image: "images/movie270.jpg", link: "    https://drive.google.com/drive/folders/1FPixkGX-DwRi_L5RqdiKDlmF7ZeSJqzB    " },
     { title: " Metro In Dino 2025", image: "images/movie268.jpg", link: "    https://drive.google.com/drive/folders/1ckPfmIiSlWs-rhPji_uA1P2QamDOpBq5    " },

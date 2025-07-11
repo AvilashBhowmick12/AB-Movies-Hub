@@ -18,7 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
-    { title: " Aap Jaisa Koi 2025 [Netflix]", image: "images/movie229.jpg", link: "    hhttps://drive.google.com/drive/folders/1wBOVM_AgLISMIZMehr_J9XRWGJR88OUZ    " },
+    { title: " Aap Jaisa Koi 2025 [Netflix]", image: "images/movie229.jpg", link: "    https://drive.google.com/drive/folders/11aUYOJ2eb19bEcLt-G3mZqfXWBZV-YIT    " },
     { title: " Maalik 2025 ", image: "images/movie228.jpg", link: "    https://drive.google.com/drive/folders/1eHshfFOFXGSUK3PTqa4CtBCSeM4EUHnq    " },
     { title: " Stolen 2025 [Amazon Prime]", image: "images/movie227.jpg", link: "    https://drive.google.com/drive/folders/1wBOVM_AgLISMIZMehr_J9XRWGJR88OUZ    " },
     { title: " F1 The Movie 2025", image: "images/movie269.jpg", link: "    https://drive.google.com/drive/folders/1VNGXbP0lexrfb5G_VBsQoHJB3F1AGN0j    " },

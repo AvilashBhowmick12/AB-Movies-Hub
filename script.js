@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " S Line Season 1 2025", image: "images/movie231.jpg", link: "    https://drive.google.com/drive/folders/19dfemTychF15yLm_VHiHPe2IuvI3jP-8    " },
+    { title: " Superman 2025", image: "images/movie230.jpg", link: "    https://drive.google.com/drive/folders/1JA5OfDb5_oSs5b1NbeljiwO25KrJ6Ki8    " },
     { title: " Aap Jaisa Koi 2025 [Netflix]", image: "images/movie229.jpg", link: "    https://drive.google.com/drive/folders/11aUYOJ2eb19bEcLt-G3mZqfXWBZV-YIT    " },
     { title: " Maalik 2025 ", image: "images/movie228.jpg", link: "    https://drive.google.com/drive/folders/1eHshfFOFXGSUK3PTqa4CtBCSeM4EUHnq    " },
     { title: " Stolen 2025 [Amazon Prime]", image: "images/movie227.jpg", link: "    https://drive.google.com/drive/folders/1wBOVM_AgLISMIZMehr_J9XRWGJR88OUZ    " },

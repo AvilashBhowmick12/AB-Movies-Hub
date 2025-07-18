@@ -18,7 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
-    { title: " Nikita Roy 2025", image: "images/movie233.jpg", link: "        " },
+    { title: " Nikita Roy 2025", image: "images/movie233.jpg", link: "    https://drive.google.com/drive/folders/1H_S-VzM-z2Kn8fivdrAxYfdKwzZDq2Xr    " },
     { title: " Saiyaara 2025", image: "images/movie232.jpg", link: "    https://drive.google.com/drive/folders/1JnPiQVkt1yGvM_VEu2WIgxn7fj83vHyM    " },
     { title: " S Line Season 1 2025", image: "images/movie231.jpg", link: "    https://drive.google.com/drive/folders/19dfemTychF15yLm_VHiHPe2IuvI3jP-8    " },
     { title: " Superman 2025", image: "images/movie230.jpg", link: "    https://drive.google.com/drive/folders/1JA5OfDb5_oSs5b1NbeljiwO25KrJ6Ki8    " },

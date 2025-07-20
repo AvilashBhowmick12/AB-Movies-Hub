@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Special Ops ", image: "images/movie235.jpg", link: "    https://drive.google.com/drive/folders/1Iaf1oWeXuQj19EKezJxCjD1omHaNkYVn    " },
     { title: " The Summer I Turned Pretty ", image: "images/movie234.jpg", link: "    https://drive.google.com/drive/folders/1vCEkOAwwVw3z7AC97oozi98CKpJjiRLP    " },
     { title: " Nikita Roy 2025", image: "images/movie233.jpg", link: "    https://drive.google.com/drive/folders/1H_S-VzM-z2Kn8fivdrAxYfdKwzZDq2Xr    " },
     { title: " Saiyaara 2025", image: "images/movie232.jpg", link: "    https://drive.google.com/drive/folders/1JnPiQVkt1yGvM_VEu2WIgxn7fj83vHyM    " },

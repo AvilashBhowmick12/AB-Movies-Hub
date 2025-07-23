@@ -107,7 +107,7 @@ const movies = [
     { title: "	The Frog (Season 1)	", image: "images/movie153.jpg", link: "	https://drive.google.com/drive/folders/1Y6nDcWX1gGx2JbBoSjwXETbSDV2LYcai	" },
     { title: "	The Substance 2024	", image: "images/movie152.jpg", link: "	https://drive.google.com/drive/folders/14SUawCkPBGyOd-lJDEU-yC7TYfhT48qH	" },
     { title: "	Vicky Vidya ka Woh wala Video 2024 Hindi	", image: "images/movie151.jpg", link: "	https://drive.google.com/drive/folders/18ffS-M1Dr1eqpU0_-qdYwKM85quX7cXz	" },
-    { title: "	Bohurupi 2024 Bengali	", image: "images/movie150.jpg", link: "	https://drive.google.com/drive/folders/15nF7Sc2mXUl5rpkuK804JolUjRhzseap	" },
+    { title: "	Bohurupi 2024 Bengali	", image: "images/movie150.jpg", link: "	https://drive.google.com/file/d/1bn1KjlH9d4EyrKAKhRcaYG4lLaCJODqt	" },
     { title: "	Tekka 2024 Bengali	", image: "images/movie149.jpg", link: "	https://drive.google.com/drive/folders/1aO9d_LnHi6hwNGqNOLxzQjuiRy9v48yg	" },
     { title: "	Vedaa 2024	", image: "images/movie148.jpg", link: "	https://drive.google.com/drive/folders/1MYZRGLJHzikUxNtwiVGKzCLpA_5J9RUd	" },
     { title: "	Transformers One Movie 2024	", image: "images/movie147.jpg", link: "	https://drive.google.com/drive/folders/178Qsd9auq9evWZn8DMij2qXXoqFt3JX2	" },

@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Mahavatar Narsimha (2025) ", image: "images/movie237.jpg", link: "    https://drive.google.com/drive/folders/18IkpRhvvKPjrnmbdjXqd-mrC4qCZuxIo    " },
+    { title: " Lilo and Stitch 2025 ", image: "images/movie236.jpg", link: "    https://drive.google.com/drive/folders/16wnUcLTPtjbB77wL1IaC27RLfGxkOMWo    " },
     { title: " Special Ops ", image: "images/movie235.jpg", link: "    https://drive.google.com/drive/folders/1Iaf1oWeXuQj19EKezJxCjD1omHaNkYVn    " },
     { title: " The Summer I Turned Pretty ", image: "images/movie234.jpg", link: "    https://drive.google.com/drive/folders/1vCEkOAwwVw3z7AC97oozi98CKpJjiRLP    " },
     { title: " Nikita Roy 2025", image: "images/movie233.jpg", link: "    https://drive.google.com/drive/folders/1H_S-VzM-z2Kn8fivdrAxYfdKwzZDq2Xr    " },

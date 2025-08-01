@@ -18,6 +18,9 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " INCEPTION 2010", image: "images/movie242.jpg", link: "    https://drive.google.com/drive/folders/1FUiYLeedB9_9dbrpF0UwWhD20yAFvWPG    " },
+    { title: " Dhadak 2 2025", image: "images/movie241.jpg", link: "    https://drive.google.com/drive/folders/1wSk9bqA2V_VAdoMpe3oeiHutx8C-i2yL    " },
+    { title: " Mandala Murders 2025", image: "images/movie240.jpg", link: "    https://drive.google.com/drive/folders/1vOdSHKj89rzKMIMhspfzKgfO5XwYo7zA    " },
     { title: " Ghare & Baire 2018 ", image: "images/movie239.jpg", link: "    https://drive.google.com/drive/folders/1MDsDmH08AA93pp21dUIFCaL8ff0LQVRU    " },
     { title: " Killbill Society (2025) ", image: "images/movie238.jpg", link: "    https://drive.google.com/drive/folders/1uA1ebnoBioZB6g0JqeaTUsm-wUgdP5XW    " },
     { title: " Mahavatar Narsimha (2025) ", image: "images/movie237.jpg", link: "    https://drive.google.com/drive/folders/18IkpRhvvKPjrnmbdjXqd-mrC4qCZuxIo    " },

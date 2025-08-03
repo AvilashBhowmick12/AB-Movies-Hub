@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Swades 2004", image: "images/movie244.jpg", link: "    https://drive.google.com/drive/folders/1xHb99FnQCyqHeTl7m6wtP8VURa-6A9yU    " },
     { title: " Birangana S01 Hoichoi 2025", image: "images/movie243.jpg", link: "    https://drive.google.com/drive/folders/1o69KsCAf43FSiH8o-PNaiG2dozIFzHJM    " },
     { title: " INCEPTION 2010", image: "images/movie242.jpg", link: "    https://drive.google.com/drive/folders/1FUiYLeedB9_9dbrpF0UwWhD20yAFvWPG    " },
     { title: " Dhadak 2 2025", image: "images/movie241.jpg", link: "    https://drive.google.com/drive/folders/1wSk9bqA2V_VAdoMpe3oeiHutx8C-i2yL    " },

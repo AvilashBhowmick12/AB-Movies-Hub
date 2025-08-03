@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Son of Sardaar 2 2025", image: "images/movie246.jpg", link: "    https://drive.google.com/drive/folders/1xHb99FnQCyqHeTl7m6wtP8VURa-6A9yU    " },
+    { title: " Head over heals S1 2025", image: "images/movie245.jpg", link: "    https://drive.google.com/drive/folders/1xHb99FnQCyqHeTl7m6wtP8VURa-6A9yU    " },
     { title: " Swades 2004", image: "images/movie244.jpg", link: "    https://drive.google.com/drive/folders/1xHb99FnQCyqHeTl7m6wtP8VURa-6A9yU    " },
     { title: " Birangana S01 Hoichoi 2025", image: "images/movie243.jpg", link: "    https://drive.google.com/drive/folders/1o69KsCAf43FSiH8o-PNaiG2dozIFzHJM    " },
     { title: " INCEPTION 2010", image: "images/movie242.jpg", link: "    https://drive.google.com/drive/folders/1FUiYLeedB9_9dbrpF0UwWhD20yAFvWPG    " },

@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Jurassic World Rebirth 2025", image: "images/movie248.jpg", link: "    https://drive.google.com/drive/folders/1ecPMrgvjsEgOH2a3FgxwBw8TVIHrzZnD    " },
+    { title: " When the phone rings S1 2024", image: "images/movie247.jpg", link: "    https://drive.google.com/drive/folders/1FQKSpFVssMIR5-fkcbOunvWQl10CmNDw    " },
     { title: " Son of Sardaar 2 2025", image: "images/movie246.jpg", link: "    https://drive.google.com/drive/folders/1iUPZDtJyWv2ceEk6wkaTScbjcOLQ9WfV    " },
     { title: " Head over heals S1 2025", image: "images/movie245.jpg", link: "    https://drive.google.com/drive/folders/1nBGNKXamo7yX6shXYoKXnXnrCrTvyGuc    " },
     { title: " Swades 2004", image: "images/movie244.jpg", link: "    https://drive.google.com/drive/folders/1xHb99FnQCyqHeTl7m6wtP8VURa-6A9yU    " },

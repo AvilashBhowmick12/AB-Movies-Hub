@@ -266,8 +266,8 @@ const movies = [
     { title: "	Rocky aur Rani ki prem kahani 2023	", image: "images/movie5.jpg", link: "	https://drive.google.com/drive/folders/1j6-CudGS7cFHvaQBV_1tGKcZn2yWb32v	" },
     { title: "	Abar Proloy 2023 S01	", image: "images/movie4.jpg", link: "	https://drive.google.com/drive/folders/1-cGzBfgg9ddZEwO13hFUFJgQZ8jjrBCE	" },
     { title: "	Guns & Gulaabs 2023 S01	", image: "images/movie3.jpg", link: "	https://drive.google.com/drive/folders/1A-3dTiu5HDP5qvMrV-9DdgH11G9p0kPW	" },
-    { title: "	The Nun 2 2023	", image: "images/movie2.jpg", link: "	https://drive.google.com/drive/folders/1qwb__bA_I4cgtMxOR1FHKudEEtw7IbjB	" },
-    { title: "	OMG 2 (2023) Hindi 720p HQ HD	", image: "images/movie1.jpg", link: "	https://drive.google.com/drive/folders/1gH1_DoqaW6atLgozM5VN7XkDDm7TknEK	" }
+    { title: "	The Nun 2 2023	", image: "images/movie2.jpg", link: "	https://1024terabox.com/s/1AZp3dMpc6XdDBAXjpEIQlA	" },
+    { title: "	OMG 2 (2023) Hindi 720p HQ HD	", image: "images/movie1.jpg", link: "	https://1024terabox.com/s/1NtQux5KUbe0Ry_NLWZgbmA	" }
 ];
 
 // Pagination Functionality

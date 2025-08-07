@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Wednesday", image: "images/movie250.jpg", link: "    https://drive.google.com/drive/folders/1pXTLcrqGtV8lnIA2IWO7OZjqaW9fb3Vj    " },
     { title: " Connect S01 2022", image: "images/movie249.jpg", link: "    https://drive.google.com/drive/folders/1SKbkJ8wFVtSxLPnqrdtCWmQlAQIHAUX2    " },
     { title: " Jurassic World Rebirth 2025", image: "images/movie248.jpg", link: "    https://drive.google.com/drive/folders/1ecPMrgvjsEgOH2a3FgxwBw8TVIHrzZnD    " },
     { title: " When the phone rings S1 2024", image: "images/movie247.jpg", link: "    https://drive.google.com/drive/folders/1FQKSpFVssMIR5-fkcbOunvWQl10CmNDw    " },

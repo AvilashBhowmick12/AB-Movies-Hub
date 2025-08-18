@@ -18,7 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
-    { title: " Coolie Hindi 2025 ", image: "images/movie255.jpg", link: "        " },
+    { title: " Coolie Hindi 2025 ", image: "images/movie255.jpg", link: "    https://drive.google.com/drive/folders/1u-9H8rlWnXIC3-MQH193spyb_JnqSlrr    " },
     { title: " Dhumketu 2025 ", image: "images/movie254.jpg", link: "    https://drive.google.com/drive/folders/1ltFzo2QNLQ5J8sz3Haf6oqlTW67_PWzR    " },
     { title: " War 2 (2025) ", image: "images/movie253.jpg", link: "    https://drive.google.com/drive/folders/1_mFCj5Vc2gdquRlt44i1TzGzfeN3_STd    " },
     { title: " Materialists (2025) ", image: "images/movie252.jpg", link: "    https://drive.google.com/drive/folders/1joGy4_2LTgTcImA3nTYSNKQ-FZVGVY6h    " },

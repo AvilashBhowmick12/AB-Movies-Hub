@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " War 2 (2025) ", image: "images/movie253.jpg", link: "    https://drive.google.com/drive/folders/1_mFCj5Vc2gdquRlt44i1TzGzfeN3_STd    " },
     { title: " Materialists (2025) ", image: "images/movie252.jpg", link: "    https://drive.google.com/drive/folders/1joGy4_2LTgTcImA3nTYSNKQ-FZVGVY6h    " },
     { title: " Salakaar (2025) ", image: "images/movie251.jpg", link: "    https://drive.google.com/drive/folders/1m0_SLXLRx5KLIOAQ02e3TYHTe4OExuP2    " },
     { title: " Wednesday", image: "images/movie250.jpg", link: "    https://drive.google.com/drive/folders/1pXTLcrqGtV8lnIA2IWO7OZjqaW9fb3Vj    " },

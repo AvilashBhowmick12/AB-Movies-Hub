@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Vash Level 2 2025 ", image: "images/movie258.jpg", link: "    https://drive.google.com/drive/folders/1Cb4FDg6g-ONqAJRj1Ch1OsYDwWc8SYPk    " },
     { title: " Doctor Slump S1 2024 ", image: "images/movie257.jpg", link: "    https://drive.google.com/drive/folders/1n7IIPR_2XkY5Tw--pEcHv_jcU9xiwFB8    " },
     { title: " The Bad Guys 2 2025 ", image: "images/movie256.jpg", link: "    https://drive.google.com/drive/folders/1Pw-eLefQMad2IcG7691rYAwtvnv_42tm    " },
     { title: " Coolie Hindi 2025 ", image: "images/movie255.jpg", link: "    https://drive.google.com/drive/folders/1u-9H8rlWnXIC3-MQH193spyb_JnqSlrr    " },

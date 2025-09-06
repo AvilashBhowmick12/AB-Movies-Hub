@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Param Sundari 2025 ", image: "images/movie260.jpg", link: "    https://drive.google.com/drive/folders/14UsiEMg6VNxOQaR7RL7ljl0xAoYuwUoZ    " },
+    { title: " The Bengal Files 2025 ", image: "images/movie259.jpg", link: "    https://drive.google.com/drive/folders/1gwanlc26RKYAmjAV7xtnQueRIV_F5Bqm    " },
     { title: " Vash Level 2 2025 ", image: "images/movie258.jpg", link: "    https://drive.google.com/drive/folders/1Cb4FDg6g-ONqAJRj1Ch1OsYDwWc8SYPk    " },
     { title: " Doctor Slump S1 2024 ", image: "images/movie257.jpg", link: "    https://drive.google.com/drive/folders/1n7IIPR_2XkY5Tw--pEcHv_jcU9xiwFB8    " },
     { title: " The Bad Guys 2 2025 ", image: "images/movie256.jpg", link: "    https://drive.google.com/drive/folders/1Pw-eLefQMad2IcG7691rYAwtvnv_42tm    " },

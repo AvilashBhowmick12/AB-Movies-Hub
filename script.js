@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Beyond the bar S1 ", image: "images/movie271.jpg", link: "    https://drive.google.com/drive/folders/1i9KDUrKz8ld-uD64InX7xk92h5ylxYf-    " },
     { title: " baaghi 4 2025 ", image: "images/movie262.jpg", link: "    https://drive.google.com/drive/folders/1z3ZAaU-oTg6bBOH9LdHRJ5Fz9l53g8AB    " },
     { title: " Inspector Zende 2025 ", image: "images/movie261.jpg", link: "    https://drive.google.com/drive/folders/1wTVDFdNuqpPOfnadYPnFr3Ptpufnr9-T    " },
     { title: " Param Sundari 2025 ", image: "images/movie260.jpg", link: "    https://drive.google.com/drive/folders/14UsiEMg6VNxOQaR7RL7ljl0xAoYuwUoZ    " },

@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Bhagwat Chapter One Raakshas (2025) ", image: "images/movie275.jpg", link: "    https://drive.google.com/drive/folders/1EefYsstn7XzIZcGjnKZRvy6NnvaTQjc0    " },
+    { title: " Kantara : A Legend Chapter 1 (2025) ", image: "images/movie274.jpg", link: "    https://drive.google.com/drive/folders/1byZkYqkshsXDQaRZypnZTz76tlKrC_Gq    " },
     { title: " Jolly LLB 3 2025 ", image: "images/movie273.jpg", link: "    https://drive.google.com/drive/folders/1qappswiDsSwtijVJBvrDig_h5UPIXndx    " },
     { title: " Sunny Sanskari Ki Tulsi Kumari (2025) ", image: "images/movie272.jpg", link: "    https://drive.google.com/drive/folders/1bi97H7LvghREKr2UTrs79DcumP2pQFP7    " },
     { title: " Beyond the bar S1 ", image: "images/movie271.jpg", link: "    https://drive.google.com/drive/folders/1i9KDUrKz8ld-uD64InX7xk92h5ylxYf-    " },

@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Dilwale (2015) ", image: "images/movie277.jpg", link: "    https://drive.google.com/drive/folders/1m_7ymcfR_c_D_alIO9GCJg2lS-lI9zKu    " },
     { title: " The Bads of Bollywood (2025) ", image: "images/movie276.jpg", link: "    https://drive.google.com/drive/folders/1qwp1_rUEBlyhLA0c1PNxRpdbZjZohmtX    " },
     { title: " Bhagwat Chapter One Raakshas (2025) ", image: "images/movie275.jpg", link: "    https://drive.google.com/drive/folders/1EefYsstn7XzIZcGjnKZRvy6NnvaTQjc0    " },
     { title: " Kantara : A Legend Chapter 1 (2025) ", image: "images/movie274.jpg", link: "    https://drive.google.com/drive/folders/1byZkYqkshsXDQaRZypnZTz76tlKrC_Gq    " },

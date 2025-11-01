@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Piku 2015 ", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPiku&psig=AOvVaw2mk5t_0ChQpaEIZ5FYpf4P&ust=1762078602149000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKDRzL7c0JADFQAAAAAdAAAAABAE", link: "    https://drive.google.com/drive/folders/1-DCE12Sgs-GG1F0rLqCMJXz-SZejUjlz    " },
+    { title: " Chennai Express 2013  ", image: "https://www.google.com/imgres?q=chennai%20express&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fbollywoodmeradost%2Fimages%2F1%2F1b%2FChennai_Express.jpg%2Frevision%2Flatest%3Fcb%3D20210221144210&imgrefurl=https%3A%2F%2Fbollywoodmeradost.fandom.com%2Fwiki%2FChennai_Express&docid=2GlQTHxzzyU6cM&tbnid=zEaQDbohTeWqjM&vet=12ahUKEwiRvbad3NCQAxVqUGcHHcGALhYQM3oECBUQAA..i&w=401&h=764&hcb=2&ved=2ahUKEwiRvbad3NCQAxVqUGcHHcGALhYQM3oECBUQAA", link: "    https://drive.google.com/drive/folders/1UON2hKuE9I8fSZBC3jA6EAvGm5uKFika    " },
     { title: " Dilwale (2015) ", image: "images/movie277.jpg", link: "    https://drive.google.com/drive/folders/1m_7ymcfR_c_D_alIO9GCJg2lS-lI9zKu    " },
     { title: " The Bads of Bollywood (2025) ", image: "images/movie276.jpg", link: "    https://drive.google.com/drive/folders/1qwp1_rUEBlyhLA0c1PNxRpdbZjZohmtX    " },
     { title: " Bhagwat Chapter One Raakshas (2025) ", image: "images/movie275.jpg", link: "    https://drive.google.com/drive/folders/1EefYsstn7XzIZcGjnKZRvy6NnvaTQjc0    " },

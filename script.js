@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Family Man S3 2025 ", image: "images/movie281.jpg", link: "    https://drive.google.com/drive/folders/1Ic7f-D09PqS0UHWahAJQjO0PASoXekMF    " },
     { title: " Tron ares 2025 ", image: "images/movie280.jpg", link: "    https://drive.google.com/drive/folders/1yZjqEMygt7e7f-3sz3pP3tEOlUL7W-14    " },
     { title: " Tehran (2025) ", image: "images/movie279.jpg", link: "    https://drive.google.com/drive/folders/1Ic6RPqyZywsbqXEaY71-AHBjMH8VH5tO    " },
     { title: " Piku 2015 ", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPiku&psig=AOvVaw2mk5t_0ChQpaEIZ5FYpf4P&ust=1762078602149000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKDRzL7c0JADFQAAAAAdAAAAABAE", link: "    https://drive.google.com/drive/folders/1-DCE12Sgs-GG1F0rLqCMJXz-SZejUjlz    " },

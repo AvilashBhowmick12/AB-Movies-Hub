@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Dhurandhar (2025) ", image: "images/movie282.jpg", link: "    https://drive.google.com/drive/folders/1vkrkoVm4a38UGZW1TvQc6Sxtd97Rdks4    " },
     { title: " Family Man S3 2025 ", image: "images/movie281.jpg", link: "    https://drive.google.com/drive/folders/1Ic7f-D09PqS0UHWahAJQjO0PASoXekMF    " },
     { title: " Tron ares 2025 ", image: "images/movie280.jpg", link: "    https://drive.google.com/drive/folders/1yZjqEMygt7e7f-3sz3pP3tEOlUL7W-14    " },
     { title: " Tehran (2025) ", image: "images/movie279.jpg", link: "    https://drive.google.com/drive/folders/1Ic6RPqyZywsbqXEaY71-AHBjMH8VH5tO    " },

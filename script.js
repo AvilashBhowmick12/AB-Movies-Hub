@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " The Silent Sea S1 20025 ", image: "images/movie285.jpg", link: "    https://drive.google.com/drive/folders/1heC7GAzdPmFphGQ3-db_ppkGfd4676z_    " },
+    { title: " Raghu Dakat 20025 ", image: "images/movie284.jpg", link: "    https://drive.google.com/drive/folders/1zmQgrQykwamL0A6FYG4SXDWUKZhN8wt6    " },
     { title: " Aaja Nachle (2007) ", image: "images/movie283.jpg", link: "    https://drive.google.com/drive/folders/1vITmLhIiHvD02nUrSJCtadxeUFyupa20    " },
     { title: " Dhurandhar (2025) ", image: "images/movie282.jpg", link: "    https://drive.google.com/drive/folders/1vkrkoVm4a38UGZW1TvQc6Sxtd97Rdks4    " },
     { title: " Family Man S3 2025 ", image: "images/movie281.jpg", link: "    https://drive.google.com/drive/folders/1Ic7f-D09PqS0UHWahAJQjO0PASoXekMF    " },

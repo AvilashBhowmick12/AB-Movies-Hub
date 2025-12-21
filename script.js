@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Haq (2025) ", image: "images/movie288.jpg", link: "    https://drive.google.com/drive/folders/1rPCauK-a21S4Gom9YNSMYf0OcQdg9MF6    " },
     { title: " Single Papa (2025) (Season 1) ", image: "images/movie287.jpg", link: "    https://drive.google.com/drive/folders/1fJib5m232Q97QrXiAoNtcNmNXhrbtEj0    " },
     { title: " Now You See Me Now You Dont 2025 ", image: "images/movie286.jpg", link: "    https://drive.google.com/drive/folders/1Km-uML0yTBYuNIrlkTo3C7NXQcctxvc1    " },
     { title: " The Silent Sea S1 20025 ", image: "images/movie285.jpg", link: "    https://drive.google.com/drive/folders/1heC7GAzdPmFphGQ3-db_ppkGfd4676z_    " },

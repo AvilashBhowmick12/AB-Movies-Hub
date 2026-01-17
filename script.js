@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Ikkis 20256 ", image: "images/movie291.jpg", link: "    https://drive.google.com/drive/folders/1xweSYHnx_tj7h1UtZN0KHS22lTA2Yjpt    " },
+    { title: " Taskaree 2026 : The Smugglers", image: "images/movie290.jpg", link: "    https://drive.google.com/drive/folders/1JplfufKrG9ZsPMrLannvDy0_xBCeSkMl    " },
     { title: " Prajapati 2 Bengali 2025 ", image: "images/movie289.jpg", link: "    https://drive.google.com/drive/folders/1ZPi7XlLzs6B2YanfPWaq_CQTdy_M3UXZ    " },
     { title: " Haq (2025) ", image: "images/movie288.jpg", link: "    https://drive.google.com/drive/folders/1rPCauK-a21S4Gom9YNSMYf0OcQdg9MF6    " },
     { title: " Single Papa (2025) (Season 1) ", image: "images/movie287.jpg", link: "    https://drive.google.com/drive/folders/1fJib5m232Q97QrXiAoNtcNmNXhrbtEj0    " },

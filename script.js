@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Kaalratri 2026 Bengali Season 2", image: "images/movie294.jpg", link: "     https://drive.google.com/drive/folders/1nRgK2Sg3KFN2E4aN9a70shheMDrJj_jd   " },
     { title: " Mardaani 3 (2026)", image: "images/movie293.jpg", link: "    https://drive.google.com/drive/folders/1vjL-mzGqc3YGInrG6gz-WPxoTiUIaTWa    " },
     { title: " Border 2 (2026)", image: "images/movie292.jpg", link: "    https://drive.google.com/drive/folders/1nPKhklmA30H6RBCSPIq1deWFeh-aWgJ6    " },
     { title: " Ikkis 20256 ", image: "images/movie291.jpg", link: "    https://drive.google.com/drive/folders/1xweSYHnx_tj7h1UtZN0KHS22lTA2Yjpt    " },

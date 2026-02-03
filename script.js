@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Mardaani 3 (2026)", image: "images/movie293.jpg", link: "    https://drive.google.com/drive/folders/1vjL-mzGqc3YGInrG6gz-WPxoTiUIaTWa    " },
     { title: " Border 2 (2026)", image: "images/movie292.jpg", link: "    https://drive.google.com/drive/folders/1nPKhklmA30H6RBCSPIq1deWFeh-aWgJ6    " },
     { title: " Ikkis 20256 ", image: "images/movie291.jpg", link: "    https://drive.google.com/drive/folders/1xweSYHnx_tj7h1UtZN0KHS22lTA2Yjpt    " },
     { title: " Taskaree 2026 : The Smugglers", image: "images/movie290.jpg", link: "    https://drive.google.com/drive/folders/1JplfufKrG9ZsPMrLannvDy0_xBCeSkMl    " },

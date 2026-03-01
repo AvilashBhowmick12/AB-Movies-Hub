@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Feludar Goyendagiri (2024) Season 2", image: "images/movie296.jpg", link: "     https://drive.google.com/drive/folders/1GIgJ7n3afjTdcaTgRe4PIHlFs-73Im1x   " },
     { title: " Feluda Pherot 2025 Bengali Season 2", image: "images/movie295.jpg", link: "     https://drive.google.com/drive/folders/1fGsXRV2Jf5h84pcdX1T1dZ8GPCsLLtMN   " },
     { title: " Kaalratri 2026 Bengali Season 2", image: "images/movie294.jpg", link: "     https://drive.google.com/drive/folders/1nRgK2Sg3KFN2E4aN9a70shheMDrJj_jd   " },
     { title: " Mardaani 3 (2026)", image: "images/movie293.jpg", link: "    https://drive.google.com/drive/folders/1vjL-mzGqc3YGInrG6gz-WPxoTiUIaTWa    " },

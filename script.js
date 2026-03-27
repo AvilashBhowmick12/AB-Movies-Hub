@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Predestination 2014", image: "images/movie299.jpg", link: "     https://drive.google.com/drive/folders/1aR8J14cSpjKBDQRrxNFY4u5_lMC2BJhu    " },
     { title: " Dhurandhar: The Revenge (2026)", image: "images/movie298.jpg", link: "     https://drive.google.com/drive/folders/1uiDM164mUYmV-IcfRavNz6tG_T9yFudF    " },
     { title: " Chotushkone 2014", image: "images/movie297.jpg", link: "     https://drive.google.com/drive/folders/1tItU5Ydum4meKHCGJNaH3lTtBVXSFWO3    " },
     { title: " Feludar Goyendagiri (2024) Season 2", image: "images/movie296.jpg", link: "     https://drive.google.com/drive/folders/1GIgJ7n3afjTdcaTgRe4PIHlFs-73Im1x   " },

@@ -18,7 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
-    { title: " The Possession of Hannah Grace (2018)", image: "images/movie302.jpg", link: "    https://drive.google.com/drive/folders/1hSgG6OfRBSSbfau1qslAmwnO6fFPmti7    " },
+    { title: " The Possession of Hannah Grace (2018) ", image: "images/movie302.jpg", link: "     https://drive.google.com/drive/folders/1hSgG6OfRBSSbfau1qslAmwnO6fFPmti7    " },
     { title: " O` Romeo (2026) ", image: "images/movie300.jpg", link: "     https://drive.google.com/drive/folders/1_iGbQXiWrBtege27P0f2nUA4bp2vPM1q    " },
     { title: " Do Deewane Seher Mein (2026) ", image: "images/movie301.jpg", link: "     https://drive.google.com/drive/folders/1L9FG1Gi2yrGZj-gBSsBSKMJxOpwHbVCy    " },
     { title: " Predestination 2014", image: "images/movie299.jpg", link: "     https://drive.google.com/drive/folders/1aR8J14cSpjKBDQRrxNFY4u5_lMC2BJhu    " },

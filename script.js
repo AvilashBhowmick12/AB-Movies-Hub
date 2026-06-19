@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Raakh (2026) (Season 1) ", image: "images/movie303.jpg", link: "     https://drive.google.com/drive/folders/1-RBf1ee2EVqfaFbICmXIqfw4vN9Gma5F    " },
     { title: " The Possession of Hannah Grace (2018) ", image: "images/movie302.jpg", link: "     https://drive.google.com/drive/folders/1hSgG6OfRBSSbfau1qslAmwnO6fFPmti7    " },
     { title: " O` Romeo (2026) ", image: "images/movie300.jpg", link: "     https://drive.google.com/drive/folders/1_iGbQXiWrBtege27P0f2nUA4bp2vPM1q    " },
     { title: " Do Deewane Seher Mein (2026) ", image: "images/movie301.jpg", link: "     https://drive.google.com/drive/folders/1L9FG1Gi2yrGZj-gBSsBSKMJxOpwHbVCy    " },

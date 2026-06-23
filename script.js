@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Cocktail 2 (2026) ", image: "images/movie305.jpg", link: "     https://drive.google.com/drive/folders/1nSLSiivwFJUpcrb6oo_xHRnQWfsQEnat    " },
     { title: " Main Vaapas Aaunga (2026) ", image: "images/movie304.jpg", link: "     https://drive.google.com/drive/folders/1430_I826G5nXmQu3x3Bq6jBjWdVh-Vuk    " },
     { title: " The Possession of Hannah Grace (2018) ", image: "images/movie302.jpg", link: "     https://drive.google.com/drive/folders/1hSgG6OfRBSSbfau1qslAmwnO6fFPmti7    " },
     { title: " Raakh (2026) (Season 1) ", image: "images/movie303.jpg", link: "     https://drive.google.com/drive/folders/1-RBf1ee2EVqfaFbICmXIqfw4vN9Gma5F    " },

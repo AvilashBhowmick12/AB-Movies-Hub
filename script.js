@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Alpha (2026) ", image: "images/movie307.jpg", link: "     https://drive.google.com/drive/folders/1U3nyzcpVjdIAcQSYiM12sPtP5BBZdNLo    " },
     { title: " Bhooth Bangla (2026) ", image: "images/movie306.jpg", link: "     https://drive.google.com/drive/folders/1WxmZhv7JGZK4dIXZZhB5qgzCMDecBC6w    " },
     { title: " Cocktail 2 (2026) ", image: "images/movie305.jpg", link: "     https://drive.google.com/drive/folders/1nSLSiivwFJUpcrb6oo_xHRnQWfsQEnat    " },
     { title: " Main Vaapas Aaunga (2026) ", image: "images/movie304.jpg", link: "     https://drive.google.com/drive/folders/1430_I826G5nXmQu3x3Bq6jBjWdVh-Vuk    " },

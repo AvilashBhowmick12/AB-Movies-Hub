@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Made in India : A Titan Story (2026) ", image: "images/movie311.jpg", link: "     https://drive.google.com/drive/folders/1epzqO53I19LIjXLlh3STfYE24aFEAXOn    " }.
     { title: " Ek Din (2026) ", image: "images/movie310.jpg", link: "     https://drive.google.com/drive/folders/1xFiBQdsPQk8TviEboAG5j7rdUmHxS9PL    " },
     { title: " Aajo Ardhangini (2026) ", image: "images/movie308.jpg", link: "     https://drive.google.com/drive/folders/1hF6apQjAmpsoc2QAeODjXPoLLrrUHPwO    " },
     { title: " Alpha (2026) ", image: "images/movie307.jpg", link: "     https://drive.google.com/drive/folders/1U3nyzcpVjdIAcQSYiM12sPtP5BBZdNLo    " },

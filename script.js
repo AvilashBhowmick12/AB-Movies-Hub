@@ -20,7 +20,7 @@ const closeIcon = document.getElementById('close-icon');
 const movies = [
     { title: " Gram Chikitsalay (2026) ", image: "images/movie313.jpg", link: "     https://drive.google.com/drive/folders/1caeuKXQJo6s2FstTvsBn6U9F1zP0M9Ve    " },
     { title: " Musafir Cafe S1 (2026) ", image: "images/movie312.jpg", link: "     https://drive.google.com/drive/folders/1QYfGlaYJOFbl2rR3j7I3kYrvwdQ74ol8    " },
-    { title: " Made in India : A Titan Story (2026) ", image: "images/movie311.jpg", link: "     https://drive.google.com/drive/folders/1epzqO53I19LIjXLlh3STfYE24aFEAXOn    " }.
+    { title: " Made in India : A Titan Story (2026) ", image: "images/movie311.jpg", link: "     https://drive.google.com/drive/folders/1epzqO53I19LIjXLlh3STfYE24aFEAXOn    " },
     { title: " Ek Din (2026) ", image: "images/movie310.jpg", link: "     https://drive.google.com/drive/folders/1xFiBQdsPQk8TviEboAG5j7rdUmHxS9PL    " },
     { title: " Aajo Ardhangini (2026) ", image: "images/movie308.jpg", link: "     https://drive.google.com/drive/folders/1hF6apQjAmpsoc2QAeODjXPoLLrrUHPwO    " },
     { title: " Alpha (2026) ", image: "images/movie307.jpg", link: "     https://drive.google.com/drive/folders/1U3nyzcpVjdIAcQSYiM12sPtP5BBZdNLo    " },

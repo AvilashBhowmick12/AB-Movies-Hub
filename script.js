@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Our Sticky Love (Season 1) ", image: "images/movie316.jpg", link: "     https://drive.google.com/drive/folders/1M1ojtT5yhYHvBEJ8d-ZyINVpDqGzRwwA    " },
     { title: " Adarsh Baal Vidyalaya (2026) (Season 1) ", image: "images/movie315.jpg", link: "     https://drive.google.com/drive/folders/1M1ojtT5yhYHvBEJ8d-ZyINVpDqGzRwwA    " },
     { title: " Governor The Silent Saviour (2026) ", image: "images/movie314.jpg", link: "     https://drive.google.com/drive/folders/1NNdG4KZ8hPv1TXBTL_XAr8teoe5NDuSV    " },
     { title: " Gram Chikitsalay (2026) ", image: "images/movie313.jpg", link: "     https://drive.google.com/drive/folders/1caeuKXQJo6s2FstTvsBn6U9F1zP0M9Ve    " },

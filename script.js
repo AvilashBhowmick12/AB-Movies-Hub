@@ -18,10 +18,14 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Adarsh Baal Vidyalaya (2026) (Season 1) ", image: "images/movie315.jpg", link: "     https://drive.google.com/drive/folders/1M1ojtT5yhYHvBEJ8d-ZyINVpDqGzRwwA    " },
+    { title: " Governor The Silent Saviour (2026) ", image: "images/movie314.jpg", link: "     https://drive.google.com/drive/folders/1NNdG4KZ8hPv1TXBTL_XAr8teoe5NDuSV    " },
     { title: " Gram Chikitsalay (2026) ", image: "images/movie313.jpg", link: "     https://drive.google.com/drive/folders/1caeuKXQJo6s2FstTvsBn6U9F1zP0M9Ve    " },
     { title: " Musafir Cafe S1 (2026) ", image: "images/movie312.jpg", link: "     https://drive.google.com/drive/folders/1QYfGlaYJOFbl2rR3j7I3kYrvwdQ74ol8    " },
     { title: " Made in India : A Titan Story (2026) ", image: "images/movie311.jpg", link: "     https://drive.google.com/drive/folders/1epzqO53I19LIjXLlh3STfYE24aFEAXOn    " },
     { title: " Ek Din (2026) ", image: "images/movie310.jpg", link: "     https://drive.google.com/drive/folders/1xFiBQdsPQk8TviEboAG5j7rdUmHxS9PL    " },
+    { title: " 18×2 Beyond Youthful Days ", image: "images/random-314.jpg", link: "     https://drive.google.com/drive/folders/1MX8Ge4Qr5ON7aEwCp4N98-VQKMzFlHMQ    " },
+    { title: " Voicemails for isabelle 2026 ", image: "images/random-313.jpg", link: "     https://drive.google.com/drive/folders/1CLDgRddi5pnMZJDIpG55CGupLXb0Pniw    " },
     { title: " Aajo Ardhangini (2026) ", image: "images/movie308.jpg", link: "     https://drive.google.com/drive/folders/1hF6apQjAmpsoc2QAeODjXPoLLrrUHPwO    " },
     { title: " Alpha (2026) ", image: "images/movie307.jpg", link: "     https://drive.google.com/drive/folders/1U3nyzcpVjdIAcQSYiM12sPtP5BBZdNLo    " },
     { title: " Bhooth Bangla (2026) ", image: "images/movie306.jpg", link: "     https://drive.google.com/drive/folders/1WxmZhv7JGZK4dIXZZhB5qgzCMDecBC6w    " },

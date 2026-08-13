@@ -18,7 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
-    { title: " Our Sticky Love (Season 1) ", image: "images/movie316.jpg", link: "     https://drive.google.com/drive/folders/1M1ojtT5yhYHvBEJ8d-ZyINVpDqGzRwwA    " },
+    { title: " Our Sticky Love (Season 1) ", image: "images/movie316.jpg", link: "     https://drive.google.com/drive/folders/19g6RjaBHvxpF2bfFvVBXzZfWrNOIvoGK    " },
     { title: " Adarsh Baal Vidyalaya (2026) (Season 1) ", image: "images/movie315.jpg", link: "     https://drive.google.com/drive/folders/1M1ojtT5yhYHvBEJ8d-ZyINVpDqGzRwwA    " },
     { title: " Governor The Silent Saviour (2026) ", image: "images/movie314.jpg", link: "     https://drive.google.com/drive/folders/1NNdG4KZ8hPv1TXBTL_XAr8teoe5NDuSV    " },
     { title: " Gram Chikitsalay (2026) ", image: "images/movie313.jpg", link: "     https://drive.google.com/drive/folders/1caeuKXQJo6s2FstTvsBn6U9F1zP0M9Ve    " },
@@ -30,6 +30,7 @@ const movies = [
     { title: " Aajo Ardhangini (2026) ", image: "images/movie308.jpg", link: "     https://drive.google.com/drive/folders/1hF6apQjAmpsoc2QAeODjXPoLLrrUHPwO    " },
     { title: " Alpha (2026) ", image: "images/movie307.jpg", link: "     https://drive.google.com/drive/folders/1U3nyzcpVjdIAcQSYiM12sPtP5BBZdNLo    " },
     { title: " Bhooth Bangla (2026) ", image: "images/movie306.jpg", link: "     https://drive.google.com/drive/folders/1WxmZhv7JGZK4dIXZZhB5qgzCMDecBC6w    " },
+    { title: " Obsession (2026) ", image: "images/random-312.jpg", link: "     https://drive.google.com/drive/folders/1ZYL78PzSvdjwAs0rTawC2KGGUmaV0dKn    " },
     { title: " Cocktail 2 (2026) ", image: "images/movie305.jpg", link: "     https://drive.google.com/drive/folders/1nSLSiivwFJUpcrb6oo_xHRnQWfsQEnat    " },
     { title: " Main Vaapas Aaunga (2026) ", image: "images/movie304.jpg", link: "     https://drive.google.com/drive/folders/1430_I826G5nXmQu3x3Bq6jBjWdVh-Vuk    " },
     { title: " Raakh (2026) (Season 1) ", image: "images/movie303.jpg", link: "     https://drive.google.com/drive/folders/1-RBf1ee2EVqfaFbICmXIqfw4vN9Gma5F    " },

@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Hanuman Ansh (2026) ", image: "images/movie317.jpg", link: "     https://drive.google.com/drive/folders/1iGxs5nKqQqxZeBGjNi2LVGe1zTsyOLxO    " },
     { title: " Our Sticky Love (Season 1) ", image: "images/movie316.jpg", link: "     https://drive.google.com/drive/folders/19g6RjaBHvxpF2bfFvVBXzZfWrNOIvoGK    " },
     { title: " Adarsh Baal Vidyalaya (2026) (Season 1) ", image: "images/movie315.jpg", link: "     https://drive.google.com/drive/folders/1M1ojtT5yhYHvBEJ8d-ZyINVpDqGzRwwA    " },
     { title: " Governor The Silent Saviour (2026) ", image: "images/movie314.jpg", link: "     https://drive.google.com/drive/folders/1NNdG4KZ8hPv1TXBTL_XAr8teoe5NDuSV    " },

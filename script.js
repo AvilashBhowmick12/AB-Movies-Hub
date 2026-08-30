@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Toxic (2026) ", image: "images/movie319.jpg", link: "     https://drive.google.com/drive/folders/1KS2PCDpmhKIzy8WoEdrcrptTSWcYpyHI    " },
+    { title: " Awarapan 2 2026 ", image: "images/movie318.jpg", link: "     https://drive.google.com/drive/folders/1r8YP2hudqC3nYjYHXU-LFQg7HCWNq0P3    " },
     { title: " Hanuman Ansh (2026) ", image: "images/movie317.jpg", link: "     https://drive.google.com/drive/folders/1iGxs5nKqQqxZeBGjNi2LVGe1zTsyOLxO    " },
     { title: " Our Sticky Love (Season 1) ", image: "images/movie316.jpg", link: "     https://drive.google.com/drive/folders/19g6RjaBHvxpF2bfFvVBXzZfWrNOIvoGK    " },
     { title: " Adarsh Baal Vidyalaya (2026) (Season 1) ", image: "images/movie315.jpg", link: "     https://drive.google.com/drive/folders/1M1ojtT5yhYHvBEJ8d-ZyINVpDqGzRwwA    " },

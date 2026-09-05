@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Mirzapur The Movie (2026) ", image: "images/movie320.jpg", link: "     https://drive.google.com/drive/folders/1fd9tWw1ltsVgfLOoyDgkQu5uBD7QKUZy    " },
     { title: " Toxic (2026) ", image: "images/movie319.jpg", link: "     https://drive.google.com/drive/folders/1KS2PCDpmhKIzy8WoEdrcrptTSWcYpyHI    " },
     { title: " Awarapan 2 2026 ", image: "images/movie318.jpg", link: "     https://drive.google.com/drive/folders/1r8YP2hudqC3nYjYHXU-LFQg7HCWNq0P3    " },
     { title: " Hanuman Ansh (2026) ", image: "images/movie317.jpg", link: "     https://drive.google.com/drive/folders/1iGxs5nKqQqxZeBGjNi2LVGe1zTsyOLxO    " },

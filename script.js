@@ -18,6 +18,11 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Vibe 2026 ", image: "images/movie325.jpg", link: "    https://drive.google.com/drive/folders/16YJq4ttf8QnieOCo6cvfPKfTPy9h9UTA    "},
+    { title: " Vishwanath & Sons 2026 ", image: "images/movie324.jpg", link: "    https://drive.google.com/drive/folders/1BpFtZAXrWrCb9K_ryYJJxnCTd3GlApv_    "},
+    { title: " Ultorath 2026 ", image: "images/movie323.jpg", link: "    https://drive.google.com/drive/folders/1KmwUTa4NqEcbLUlCPZ0GaxVO5OE-I6XK    "},
+    { title: " Lust Stories 3 2026 ", image: "images/movie322.jpg", link: "    https://drive.google.com/drive/folders/1DS79l39oSjxg7-nvIF2FIBg7wgRwdN_y    "},     
+    { title: " Haiwaan 2026 ", image: "images/movie321.jpg", link: "     https://drive.google.com/drive/folders/1RrlTel37zqelaLITldPAPWl1SUuwjy3E    " },
     { title: " Mirzapur The Movie (2026) ", image: "images/movie320.jpg", link: "     https://drive.google.com/drive/folders/1fd9tWw1ltsVgfLOoyDgkQu5uBD7QKUZy    " },
     { title: " Toxic (2026) ", image: "images/movie319.jpg", link: "     https://drive.google.com/drive/folders/1KS2PCDpmhKIzy8WoEdrcrptTSWcYpyHI    " },
     { title: " Awarapan 2 2026 ", image: "images/movie318.jpg", link: "     https://drive.google.com/drive/folders/1r8YP2hudqC3nYjYHXU-LFQg7HCWNq0P3    " },

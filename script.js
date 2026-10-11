@@ -18,6 +18,8 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Ajeya (2026) S01 Hoichoi ", image: "images/movie328.jpg", link: "    https://drive.google.com/drive/folders/1qQGGdBEnEoekEWfmss5s8oh441g9Df3O    "},
+    { title: " Debipokkho (2026) S01 Hoichoi ", image: "images/movie327.jpg", link: "    https://drive.google.com/drive/folders/1h88AL9LIRpL1By_DIz9RwZdfZRCYCxVO    "},
     { title: " Drishyam 3 The Conclusion 2026 ", image: "images/movie326.jpg", link: "    https://drive.google.com/drive/folders/1qhSjPx39ZlNMn97H89tEOqwAJKtqGUBQ    "},
     { title: " Vibe 2026 ", image: "images/movie325.jpg", link: "    https://drive.google.com/drive/folders/16YJq4ttf8QnieOCo6cvfPKfTPy9h9UTA    "},
     { title: " Vishwanath & Sons 2026 ", image: "images/movie324.jpg", link: "    https://drive.google.com/drive/folders/1BpFtZAXrWrCb9K_ryYJJxnCTd3GlApv_    "},

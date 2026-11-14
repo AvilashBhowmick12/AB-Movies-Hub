@@ -18,6 +18,7 @@ const closeIcon = document.getElementById('close-icon');
 
 // Store the movie data in an array for easier manipulation
 const movies = [
+    { title: " Parivarik ManuRanjan (2026) ", image: "images/movie331.jpg", link: "    https://drive.google.com/drive/folders/1qEUCzxb6Frx1U0G274B-BkLFpOFgjb3i    "},
     { title: " Prahaar (2026) Hindi ", image: "images/movie329.jpg", link: "    https://drive.google.com/drive/folders/10mx7xbT8mohNEY_m_9Q-EFd2_K2J0pTh    "},
     { title: " Udta Teer (2026) Hindi ", image: "images/movie330.jpg", link: "    https://drive.google.com/drive/folders/1kI9HtXh7SSoFUs9XPJT1U-kqt_bAgbKY    "},
     { title: " Ajeya (2026) S01 Hoichoi ", image: "images/movie328.jpg", link: "    https://drive.google.com/drive/folders/1qQGGdBEnEoekEWfmss5s8oh441g9Df3O    "},
